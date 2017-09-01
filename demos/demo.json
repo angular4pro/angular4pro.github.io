@@ -1,0 +1,19 @@
+[
+    {
+        "id": 100,
+        "text": "Hello Angular4pro.com",
+        "link": "https://angular4pro.com",
+        "snippet": " <h2>Helo world</h2> ",
+        "category": " AngularJS, AngularJS 1.x",
+        "tags": " Tutorials"
+    },
+    {
+        "id": 102,
+        "text": "Welcome to Angular4pro.com",
+        "link": "https://angular4pro.com",
+        "snippet": " <h2>Welcome to Angular4pro.com</h2> ",
+        "category": " AngularJS, AngularJS 1.x",
+        "tags": " Tutorials"
+    }
+]
+
