@@ -24,7 +24,7 @@
 </body>
 <script>
 
-    var app = angular.module('myapp', []);
+    var app = angular.module('myDemoApp', []);
     app.controller('tableController', function($scope, $http) {
       $http.get("http://angular4pro.com/demo/demo.json")
         .then(function(response) {
