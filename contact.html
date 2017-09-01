@@ -1,0 +1,144 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Angular4pro</title>
+<link rel="stylesheet" type="text/css" href="asset/style-optimised.css">
+<style type="text/css">
+	
+form{line-height:20px!important}.form-control,bootstrap.min.css:14 .btn{padding:6px 12px;font-size:13px;line-height:1.42857143}.form-group{margin-bottom:15px}.form-control{display:block;width:100%;height:32px;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:2px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form input,.form select,.form textarea,input,select,textarea{box-shadow:none!important}textarea.form-control{height:auto}.btn.btn-red{color:#fff;background:#ed5441;border:1px solid #e52d16}style.css:724 .btn{border-radius:2px;position:relative}bootstrap.min.css:14 .btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;border-radius:2px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.myContactCtrl {
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 8px;
+    font-weight: normal;
+
+}
+</style>
+</head> 
+<body>
+<div class="outer">
+
+<div class="top-bar"><div class="container"><div class="tb-contact pull-left"><i class="fa fa-envelope color"></i> &nbsp; <a href="mailto:angular4pro@gmail.com">angular4pro@gmail.com</a> &nbsp;&nbsp; <i class="fa fa-phone color"></i> &nbsp; beta</div><div class="tb-social pull-right"><div class="brand-bg text-right"><a href="https://www.facebook.com/angular4pro" class="facebook" target="_blank"><i class="fa fa-facebook square-2 rounded-1"></i></a><a href="https://twitter.com/angular4pro.com" class="twitter" target="_blank"><i class="fa fa-twitter square-2 rounded-1"></i></a> <a href="https://plus.google.com/u/0/angular4pro.com/" class="google-plus" target="_blank"><i class="fa fa-google-plus square-2 rounded-1"></i></a> <a href="#" class="linkedin "><i class="fa fa-linkedin  square-2 rounded-1"></i></a><a href="https://www.youtube.com/channel/angular4pro.com" class="youtube"><i class="fa fa-youtube square-2 rounded-1"></i></a></div></div><div style="width: 110px;float: right;"> <a class="btnDONATE" target="_blank" title="If you find these tutorials helpful then please donate." href="https://www.paypal.me/isatinder">Donate</a></div><div class="clearfix"></div></div></div>
+
+
+<div class="header-1"><div class="container"> <div class="row"><div class="col-md-4 col-sm-4"><div class="logo">
+	<a id="aLogo" alt="Angular4Pro.com" title="Angular4Pro - a complete angularjs tutorial hub" 
+	   href="https://angular4pro.com"><img src="https://angular4pro.com/md/images/ANGULAR-4-PRO.png"  alt="Angular4pro.com" /></a></div> </div> <div class="col-md-3 col-md-offset-5 col-sm-5 col-sm-offset-3 hidden-xs"><div class="header-search">
+
+	<!-- ADD GOOGLE SEARCH ENGINE -->
+
+</div></div></div></div><div class="navi"> 
+<div class="container">
+<div class="navy"><div id="menu-button">Menu</div>
+<ul itemscope="" itemtype="https://www.schema.org/SiteNavigationElement">
+	<li itemprop="name"><a itemprop="url" href="https://angular4pro.com">Home</a> </li>
+	<li itemprop="name"><a itemprop="url" href="https://angular4pro.com/">AngularJS 1.x</a></li>
+	<li itemprop="name"><a itemprop="url" href="#">Freebies</a></li>
+	
+</ul></div></div></div>
+
+</div>
+
+<div class="main-block">
+
+<div class="page-heading-two text-center">
+<div class="container">
+<h3 style="text-align: center;">You can contact us by filling this form</h3>
+</div>
+</div>
+
+<div class="container">
+<div class="error-inside text-center" style="font-size: 16px;font-weight: bold;text-align: center;margin-bottom:50px;">
+<div class="col-md-5 col-sm-6" style="margin-left: 30%;">
+								<div class="contact-item">
+									<!-- Contact Form -->
+									<div class="contact-form">
+										<h5>Contact Form</h5>
+										<!-- Form -->
+										<form class="form" role="form" target="_self" onsubmit="" action="javascript: postToGoogle()">
+											<!-- Form Group -->
+											<div class="form-group">
+												<input type="text" required class="form-control myContactCtrl" id="txtName" placeholder="Enter Name">
+											</div>
+											<div class="form-group">
+												<input type="email" required class="form-control myContactCtrl" id="txtEmail" placeholder="Enter Email">
+											</div>
+											<div class="form-group">
+												<textarea required class="form-control myContactCtrl" id="txtComments" style="padding-top: 8px;" rows="7" placeholder="Enter Message"></textarea>
+											</div>
+											<!-- Button -->
+											<button id="send" type="submit" class="btn btn-red">Submit</button>
+											<div id="iMsg"></div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+</div>
+</div>
+</div>
+
+<div class="foot"> <input type="hidden" id="hdh" value="0"><div class="container"><div class="row"> 
+	<div class="col-md-4 col-sm-6">  
+	<div class="foot-item">  
+		<strong class="bold"><i class="fa fa-user"></i>&nbsp;&nbsp;Popular Tag</strong> <br></div>
+
+ </div>
+
+ <div class="col-md-5 col-sm-8"> <div class="foot-item">  <h5 class="bold"><i class="fa fa-comments"></i>&nbsp;&nbsp;Recent Posts</h5> <div class="foot-item-content">
+
+ </div></div> </div><div class="col-md-3 col-sm-6">  <div class="foot-item"> <strong class="bold"><i class="fa fa-building-o"></i>&nbsp;&nbsp;Follow Us</strong><div class="foot-item-content address"> <div class="brand-bg">  <a href="https://www.facebook.com/angular4pro" class="facebook"><i class="fa fa-facebook circle-3"></i></a><a href="https://twitter.com/angular4pro" class="twitter"><i class="fa fa-twitter circle-3"></i></a><a href="https://plus.google.com/u/0/angular4pro/" class="google-plus"><i class="fa fa-google-plus circle-3"></i></a><a href="#" class="linkedin"><i class="fa fa-linkedin circle-3"></i></a><a href="https://www.youtube.com/channel/angular4pro" class="youtube"><i class="fa fa-youtube circle-3"></i></a></div>  </div> <div id="donation"><div style="float:left;line-height: 19px;text-align: center;margin-top: 20px;font-weight: bold;">If you find these tutorials helpful then please donate. It will lead me to do more tutorials. </div> <a style="color: white;background-color: #51d466;text-align: center;padding-left: 20px;padding-right: 20px;padding-top: 5px;padding-bottom: 5px;float: left;border-radius: 5px;margin-left: 75px;margin-top: 10px;" target="_blank" href="https://www.paypal.me/isatinder">Donate </a>
+</div></div> </div> </div></div></div>
+
+<footer>  <div class="container">  <p class="pull-left">Copyright © 2017 - <a href="https://angular4pro.com">Angular4pro</a>, all rights reserved.</p> <ul class="list-inline pull-right"> <li><a href="https://angular4pro.com">Home</a></li><li></li><li><a href="https://angular4pro.com/advertise.html">Advertise</a></li><li><a href="https://angular4pro/privacy-policy.html">Privacy Policy</a></li> <li><a href="https://angular4pro/about-us.html">About</a></li><li><a href="https://angular4pro/contact.html">Contact</a></li></ul>  <div class="clearfix"></div></div></footer>
+
+<span class="totop"><a href="#"><i class="fa fa-angle-up bg-color"></i></a></span>
+
+
+
+<!-- CODE SYNTAX JS CODE STARTS  -->
+<script type="text/javascript" src="asset/jquery.js" ></script>
+<script type="text/javascript" src="asset/bootstrap.min.js" ></script>
+<script type="text/javascript" src="asset/main.js" ></script>
+<script type="text/javascript" src="asset/iga.js" ></script>
+<script type="application/ld+json">{ "@context" : "https://schema.org",  "@type" : "Organization",  "name" : "Angular4Pro",  "url" : "https://angular4pro.com","logo": "https://angular4pro.com/md/images/ANGULAR-4-PRO.jpg",  "sameAs" : [ "https://www.facebook.com/angular4pro",    "https://twitter.com/angular4pro.com",    "https://plus.google.com/+angular4pro.com"] 
+}
+</script>
+
+<script type="text/javascript"> 
+ function postToGoogle() {
+   
+   var txtName = $("#txtName").val();
+   	var txtEmail = $('#txtEmail').val();
+   	var txtComments = $('#txtComments').val();   
+     $.ajax({
+     url:"https://docs.google.com/forms/d/1XT3RnwRgjAOHs_pzILNuabQdUS61flxr2bARtAE5t7s/formResponse",
+     data: {
+       "entry.236203023": txtName,
+       "entry.998064909": txtEmail,
+       "entry.138857083": txtComments      
+     },
+     type: "POST",
+     dataType: "xml",
+     statusCode: {
+       0: function() {
+         //Success message 
+         $("#iMsg").html("Your message was sent successfully. Thanks");
+		$("#txtName").val("");
+		$('#txtEmail').val("");
+		$('#txtComments').val("");
+       },
+       200: function() {
+         //Success Message
+        $("#iMsg").html("Your message was sent successfully. Thanks");
+        $("#txtName").val("");
+		$('#txtEmail').val("");
+		$('#txtComments').val("");
+       }
+     }
+     
+   });  
+   
+ }
+
+</script>
+</body>
+</html>
