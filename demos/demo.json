@@ -3,7 +3,9 @@
         "id": 100,
         "text": "Hello Angular4pro.com",
         "link": "https://angular4pro.com",
-        "snippet": " <h2>Helo world</h2> ",
+        "snippet": " <h2>Helo world</h2> 	
+            <center>I am in center</center> 
+       ",
         "category": " AngularJS, AngularJS 1.x",
         "tags": " Tutorials"
     },
