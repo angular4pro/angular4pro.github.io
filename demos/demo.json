@@ -27,7 +27,7 @@
       "id": 106,
       "text": "AngularJS Number Expression",
       "link": "https://angular4pro.com/number-expressions-angularjs.html",
-      "snippet": "<body><div ng-app><p> Multiplication of 10 * 10 =  <span ng-bind="10 * 10"></span> </p></div> </body>",
+      "snippet": "<body><div ng-app><p> Multiplication of 10 * 10 =  <span ng-bind=\"10 * 10\"></span> </p></div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
