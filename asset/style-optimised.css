@@ -3,4 +3,11 @@
 hr {
     border: 1px solid #eee;
     border-top: 0 none;
+}.btn.btn-green, .btn.btn-success {
+    color: #fff;
+    background: #51d466;
+    border: 1px solid #30c247;
+}.btn.btn-green:active, .btn.btn-green:focus, .btn.btn-green:hover, .btn.btn-success:active, .btn.btn-success:focus, .btn.btn-success:hover {
+    background: #30c247;
+    color: #fff;
 }
