@@ -1,6 +1,6 @@
 
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AngularjJS Expressions - Angular4Pro</title>
+<title>AngularjJS Introduction - Angular4Pro</title> <link rel="icon" type="image/png" href="https://angular4pro.com/md/images/favicon.png">
 <link rel="stylesheet" type="text/css" href="https://angular4pro.com/asset/style-optimised.css">
 
 </head>
@@ -91,16 +91,27 @@
 <div class="block-heading-one">
 <h2><i class="fa fa-angle-double-right color"></i> What is AngularJS</h2>
 </div>
-<p> <strong>AngularJS is a full featured SPA framework</strong>  and it is written in JavaScript. A single page application (SPA) is a web application or web site that fits on a single web page with the goal of providing a fast user experience similar to that of a desktop application. SPA can be created using any frameworks like AngularJs, EmberJS, MeteorJs, ReactJs and so on.</p> 
+<p> <strong>AngularJS is a full featured SPA framework</strong>  and it is written in JavaScript. A single page application (SPA) is a web application or web site that fits on a single web page with the goal of providing a fast user experience similar to that of a desktop application. SPA can be developed using any frameworks like AngularJs, EmberJS, MeteorJs, ReactJs and so on.</p> 
 
-<p>AngularJS is no different from plain HTML, but with extensions to HTML with new attributes. AngularJS is a JavaScript MV structured framework to create dynamic web applications. AngularJS is open source, completely free and officially maintained by Google.</p>
+<p>AngularJS is a JavaScript MV structured framework to create dynamic web applications. AngularJS is open source, completely free and officially maintained by Google. AngularJS is no different from plain HTML, but and additional <b>extensions to HTML with new attributes</b> i.e by using  <span class="cp-codespan"> ng-directives </span>.</p>
+
 <img  class="alignImg" src="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg" alt="Angularjs is full stac SPA" />
+<br/>
+
+ Before writing any code first we need to download and import <a href="https://angularjs.org/" target="_blank"> AngularJS library</a> on our webpage, then we extend html with angularjs directives.
 
 <div class="block-heading-one">
-<h2><i class="fa fa-angle-double-right color"></i> What are Directives?</h2>
+<h2><i class="fa fa-angle-double-right color"></i> AngularJS extends HTML with Directives.</h2>
 </div>
-<p>Directives teach HTML new tricks. That is with directive we can do DOM Manipulation, Data Binding and Events</p>
+<p>In AngularJs with directive we can do DOM Manipulation, Data Binding and trigger Events. Directives teach HTML new tricks. Most important directive is <span class="cp-codespan"> ng-app </span> which tells AngularJS that this part of webpage is AngularJS application</p>
+The AngularJS framework can be divided into following three major parts 
+<ul>
+<li><span class="cp-codespan"> ng-app</span> : This directive use to define starting point of application and it will act as root element of an application.</li>
+<li><span class="cp-codespan"> ng-model</span> : This directive binds the value of HTML controls to application data .</li>
+<li><span class="cp-codespan"> ng-bind</span> : This directive binds the content of HTML element to application data.</li>
+</ul>
 
+<br/>
 <div class="block-heading-one">
 <h2><i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives</h2>
 </div>
@@ -133,9 +144,6 @@
 <br>
 </div>
 
-
-
-
 <div class="col-md-3">
 	<div class="box-shadow-outer">
 	<div class="box-shadow-block box-shadow-1 text-center">
@@ -167,13 +175,30 @@
 
 </div>
 
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> Pros & Cons</h2>
+</div>
+Pros:
+<ul>
+<li>  <b> No page refresh :</b> This mean to load data, we don't need to refresh whole webpage, just load specific part of our webpage which loads dynamic data.</li>
+<li> <b> Better user experience :</b> SPA feels like a native application (like desktop app) very fast and responsive. </li> 
+<li> <b>Two Way Data Binding :</b> Data binding in AngularJS is the synchronization between the <span class="cp-codespan"> model </span> and the <span class="cp-codespan"> view </span>. This is one of the best feature of Angularjs. When data in the model changes, the view reflects the change, and when data in the view changes, the model is updated as well.
+<li> <b>Ability to work offline:</b> Even if user loses internet connection, SPA can still work because all the pages are already loaded.</li> 
+<li><b>Designed and Developed by Google :</b> AngularJS is designed and built by bunch of dedicated Google engineers and now it officially maintained by Google.</li> 
+</ul>
+Cons:
+<ul>
+<li>  <b> SEO :</b> To index SPA app, search engine crawlers should able to execute javascript. One good news is now google and bing stared indexing ajax based webpages, but not all search engine started (Yahoo, AOL, Baidu, Yandex)</li>  
+<li>  <b> Confused to many ways to handle :</b> One advantages with AngularJS is that it can be handled it in different ways, ironically this is the same feature which becomes a hurdle. As many beginner find this lil bit confusing.</li> 
+
+
 
 
 
 
 </div>
 
-<ul class="pager"><li class="previous"><a href="angularjs-intoduction.html">Previous </a></li><li class="next"><a href="number-expressions-angularjs.html"> Next</a></li></ul>
+<ul class="pager"><li class="previous"><a href="angularjs-introduction.html">Previous </a></li><li class="next"><a href="number-expressions-angularjs.html"> Next</a></li></ul>
 <div class="padd-15">
 ADD GOOGLE ADSENSE
 </div>
