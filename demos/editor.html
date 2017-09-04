@@ -73,12 +73,13 @@ var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().ge
             };
 
 
-         var preffix ='<html><head><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" ><\/script>';
+         var preffix ='<html><head>';
+         preffix +='<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" ><\/script>';
          preffix += '<link rel="stylesheet" href="https://angular4pro.com/demos/editor.css" type="text/css" /> </head>';
 
-         $scope.snippet=preffix+process($scope.items[0].snippet) + "</html>";
-         $scope.text=$scope.items[0].text;
-         $scope.link=$scope.items[0].link;
+         $scope.snippet=preffix+process($scope.result[0].snippet) + "</html>";
+         $scope.text=$scope.result[0].text;
+         $scope.link=$scope.result[0].link;
 
 
         });
