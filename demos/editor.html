@@ -1,36 +1,122 @@
+
 <!DOCTYPE html>
-<html>
+<html ng-app="myDemoApp" ng-controller="tableController">
 <head>
-<title>Demo editor</title>
+<title>Demo : {{ text }} - Angular4Pro </title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    
+    <style type="text/css">body{font-size:15px;color:#222;line-height:25px;font-family:sans-serif}.bkTitle{float:left;margin-bottom:10px;margin-top:-5px}.df,.myF_lft,.mySubHd{float:left}#myContentHolder{background-color:#f1f1f1}.df{min-height:100px;width:100%}.myIframecontainer,.myTextareacontainer{float:left;height:100%;width:50%}.myIframe,.myTextarea{height:100%;padding:15px}.mySubHd{width:10%;height:30px}.myF_rgt{float:right;padding-right:15px}#myIframewrapper,#myTextareawrapper{background-color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);float:left;height:400px;margin-bottom:25px;width:100%}#myTextareaCode{background-color:#fff;border:none;font-family:consolas,"courier new",monospace;font-size:15px;height:94%;padding:8px;resize:none;width:100%;float:left}.vkHeader{float:left;height:25px;margin-bottom:10px;width:100%}#iframeResult,#iframeSource{background-color:#fff;height:100%;width:100%}.btnRunCode{background-color:#f44336;border:none;border-radius:4px;color:#fff;cursor:pointer;padding:5px;padding-right:10px;padding-left:10px;transition:background-color .3s ease 0s}.btnRunCode:hover{background-color:#222}.btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}table{border-spacing:0;border-collapse:collapse}.table{width:70%;max-width:70%;margin-bottom:20px}.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #ddd}th{text-align:left}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}</style>
   
 </head>
-<body ng-app="myDemoApp" ng-controller="tableController">
+<body>
+ <div class="entry-content">
+ <strong>Back to Tutorial : <a href="{{ link }}">{{text}}</a></strong>
+<div id="vkWrapper">
+<div id="myHead" class="df">
+    <center> Ads </center> 
+</div>
 
- <table class="table table-stripe" >
-   <thead><tr>
-     <th>id</th>
-     <th>text</th>
-     <th> link </th>
-    </tr></thead>
-   <tbody>
-     <tr ng-repeat="i in items">
-       <td> {{ i.id }}</td>
-       <td> {{ i.text }} </td>
-       <td> {{ i.link }} </td>
-     </tr>
-   </tbody>
+<div class="df" id="myContentHolder">
+<div class="myTextareacontainer">
+<div class="myTextarea">
+<div class="vkHeader">
+<div class="myF_lft">Edit This Code : </div>
+<div class="myF_rgt"> <button class="btnRunCode" type="button" onclick="runCode()">See Result »</button> </div>
+</div>
+<div id="myTextareawrapper">
+<textarea ng-model="snippet" class="code_input" spellcheck="false" id="myTextareaCode" autocomplete="off">
+  
+</textarea>
+</div>
+</div>
+</div>
+<div class="myIframecontainer">
+<div class="myIframe">
+<div class="vkHeader">
+<div class="myF_lft">Result : </div>
+</div>
+<div id="myIframewrapper"><iframe frameborder="0" id="iframeResult"></iframe></div>
+</div>
+</div>
+</div>
+</div> <style type="text/css">.td-main-content-wrap .td-container{width:100%!important}</style>
+<script type="text/javascript">function runCode_1(){var text=document.getElementById("myTextareaCode").value;var ifr=document.createElement("iframe");ifr.setAttribute("frameborder","0");ifr.setAttribute("id","iframeResult");document.getElementById("myIframewrapper").innerHTML="";document.getElementById("myIframewrapper").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.open();ifrw.document.write(text);ifrw.document.close();if(ifrw.document.body&&!ifrw.document.body.isContentEditable){ifrw.document.body.contentEditable=true;ifrw.document.body.contentEditable=false;}}
+runCode_1();function runCode(){var text=document.getElementById("myTextareaCode").value;var ifr=document.createElement("iframe");ifr.setAttribute("frameborder","0");ifr.setAttribute("id","iframeResult");document.getElementById("myIframewrapper").innerHTML="";document.getElementById("myIframewrapper").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.open();ifrw.document.write(text);ifrw.document.close();if(ifrw.document.body&&!ifrw.document.body.isContentEditable){ifrw.document.body.contentEditable=true;ifrw.document.body.contentEditable=false;}}</script><p></p>
+</div>
+
+
 </body>
 <script>
-
+var fileName=getParameterByName('f');
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+if(fileName!=null){
+var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().getTime();
     var app = angular.module('myDemoApp', []);
-    app.controller('tableController', function($scope, $http) {
-      $http.get("https://angular4pro.com/demos/demo.json")
+    app.controller('tableController', function($scope, $http,filterFilter) {
+      $http.get(filePath)
         .then(function(response) {
-          $scope.items = response.data;
+           $scope.qid=  getParameterByName('i'); // "1010";  
+          $scope.items = response.data;        
+          $scope.result =filterFilter($scope.items, {id: $scope.qid}); 
+            console.log($scope.result );
+
+            $scope.isValidId = function(items){
+              return (items.id == $scope.qid);
+            // return items;
+            };
+
+
+         var preffix ='<html><head><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" ><\/script>';
+         preffix += '<link rel="stylesheet" href="https://angular4pro.com/demos/editor.css" type="text/css" /> </head>';
+
+         $scope.snippet=preffix+process($scope.items[0].snippet) + "</html>";
+         $scope.text=$scope.items[0].text;
+         $scope.link=$scope.items[0].link;
+
+
         });
-    });
+
+
+    });} else {
+
+    var content="<h2 style='text-align:center;'>Invalid Attempt!</h2>";
+    document.getElementById("myContentHolder").innerHTML = content; 
+  }
+    function process(str) {
+    var div = document.createElement('div');
+    div.innerHTML = str.trim();
+    return format(div, 0).innerHTML;
+}
+
+function format(node, level) {
+
+    var indentBefore = new Array(level++ + 1).join('  '),
+        indentAfter  = new Array(level - 1).join('  '),
+        textNode;
+
+    for (var i = 0; i < node.children.length; i++) {
+        textNode = document.createTextNode('\n' + indentBefore);
+        node.insertBefore(textNode, node.children[i]);
+        format(node.children[i], level);
+        if (node.lastElementChild == node.children[i]) {
+            textNode = document.createTextNode('\n' + indentAfter);
+            node.appendChild(textNode);
+        }
+    }
+
+    return node;
+}
 
 </script>
 </html>
+
+
+
+
