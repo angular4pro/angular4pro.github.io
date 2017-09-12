@@ -5,65 +5,89 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+
 <url>
   <loc>https://angular4pro.com/</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/angularjs-introduction.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/angularjs-expressions.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/number-expressions-angularjs.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/string-expressions-angularjs.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/object-expressions-angularjs.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/array-expressions-angularjs.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://angular4pro.com/directives-angularjs.html</loc>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/advertise.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/privacy-policy.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://angular4pro.com/contact.html</loc>
-  <lastmod>2017-09-04T22:34:47+00:00</lastmod>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://angular4pro.com/demos/editor.html?f=demo&amp;i=105</loc>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://angular4pro.com/demos/editor.html?f=demo&amp;i=106</loc>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://angular4pro.com/demos/editor.html?f=demo&amp;i=107</loc>
+  <lastmod>2017-09-12T17:12:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
