@@ -1,5 +1,9 @@
 <!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Directives in AngularJS [Detailed explaination]- Angular4pro</title><link rel="icon" type="image/png" href="https://angular4pro.com/md/images/favicon.png">
+<meta name="description" content="What are Directives , Simple understanding of angularjs directives, List of directives, Directive ng-app, ng-model, ng-controller "/> 
+<meta name="keywords" content="directives in angularjs, AngularJs directives list"/>
+<link rel="canonical" href="https://angular4pro.com/directive-angularjs.html"/>
+
 <link rel="stylesheet" type="text/css" href="asset/style-optimised.css">
 
 <style type="text/css">
@@ -38,7 +42,7 @@
  <div class="leftSidebar col-md-2 hidden-xs hidden-sm hidden-print">
  	<ul class="customList padding_top_content">
 		<li><a href="https://angular4pro.com/angularjs-introduction.html">Introduction</a></li>
-		<li  class="selected"><a href="https://angular4pro.com/angularjs-expressions.html">Expressions</a></li>
+		<li ><a href="https://angular4pro.com/angularjs-expressions.html">Expressions</a></li>
 		<li>
 			<ul class="childUl">
 			<li> <a href="https://angular4pro.com/number-expressions-angularjs.html"> AngularJs Number </a> </li>
@@ -47,7 +51,7 @@
 			<li> <a href="https://angular4pro.com/array-expressions-angularjs.html"> AngularJs Array </a> </li>	
 			</ul>
 		</li>
-		<li><a href="https://angular4pro.com/directives-angularjs.html">Directives</a></li>
+		<li class="selected"><a href="https://angular4pro.com/directives-angularjs.html">Directives</a></li>
 		<li>
 			<ul class="childUl">
 				<li><a href="https://angular4pro.com/ng-app-angularjs.html">ng-app</a></li>
@@ -105,8 +109,8 @@
 </div>
 <p>In AngularJs with directive we can do DOM Manipulation, Data Binding and handle Events. Directives teach HTML new tricks. Directives extends the HTML by adding special attribute prefix <b>ng-</b> where ng stands for Angular.
 </p>
-<p> In angularjs most important directive is <span class='cp-codespan'> ng-app</span>  which tells angularjs that this part of webpage is AngularJS application. And <span class='cp-codespan'> ng-model</span>  is also another important directives, which is used for data binding in AngularJs. AngularJS includes various built-in directives and we can also create custom directives in angularjs application.</p>
-<b>Directives are used to perform variety of different function to build an application .i.e</b>
+<p> In angularjs most important directive is <code class='cp-codespan'> ng-app</code>  which tells angularjs that this part of webpage is AngularJS application. And <code class='cp-codespan'> ng-model</code>  is also another important directives, which is used for data binding in AngularJs. AngularJS includes various <b>built-in directives</b> and we can also create <b>custom directives</b> in angularjs application.</p>
+<b><u>Directives are used to perform variety of different function to build an application .i.e</u></b>
 <ul>
 	<li>Used for DOM manipulation</li>
 	<li>Used to working with Data Binding</li>
@@ -176,10 +180,247 @@
 </div>
 </div>
 
- <b>Note :</b> This is just some common used examples of directive, there are many more directives available in AngularJS.
+ <b>Note :</b> This is just some common used examples of directive, there are many more directives available in AngularJS pls check below given list.
 
 <br/>
-
+ <div class="padd-15">
+<div class="block-heading-one">
+<h2 id="Complete-List"><i class="fa fa-angle-double-right color"></i> Complete list of AngularJs Directives</h2>
+</div>
+<table class="table table-striped">
+<tbody><tr>
+<th style="width:20%">Directive</th>
+<th>Description</th>
+</tr>
+<tr>
+    <td><a href="#">ng-app</a></td>
+    <td>Defines the root element of an application.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-bind</a></td>
+    <td>Binds the content of an HTML element to application data.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-bind-html</a></td>
+    <td>Binds the innerHTML of an HTML element to application data, and also removes dangerous code from the HTML string.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-bind-template</a></td>
+    <td>Specifies that the text content should be replaced with a template.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-blur</a></td>
+    <td>Specifies a behavior on blur events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-change</a></td>
+    <td>Specifies an expression to evaluate when content is being changed by the user.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-checked</a></td>
+    <td>Specifies if an element is checked or not.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-class</a></td>
+    <td>Specifies CSS classes on HTML elements.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-class-even</a></td>
+    <td>Same as ng-class, but will only take effect on even rows.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-class-odd</a></td>
+    <td>Same as ng-class, but will only take effect on odd rows.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-click</a></td>
+    <td>Specifies an expression to evaluate when an element is being clicked.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-cloak</a></td>
+    <td>Prevents flickering when your application is being loaded.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-controller</a></td>
+    <td>Defines the controller object for an application.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-copy</a></td>
+    <td>Specifies a behavior on copy events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-csp</a></td>
+    <td>Changes the content security policy.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-cut</a></td>
+    <td>Specifies a behavior on cut events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-dblclick</a></td>
+    <td>Specifies a behavior on double-click events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-disabled</a></td>
+    <td>Specifies if an element is disabled or not.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-focus</a></td>
+    <td>Specifies a behavior on focus events.</td>
+</tr>
+<tr>
+    <td>ng-form</td>
+    <td>Specifies an HTML form to inherit controls from.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-hide</a></td>
+    <td>Hides or shows HTML elements.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-href</a></td>
+    <td>Specifies a url for the &lt;a&gt; element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-if</a></td>
+    <td>Removes the HTML element if a condition is false.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-include</a></td>
+    <td>Includes HTML in an application.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-init</a></td>
+    <td>Defines initial values for an application.</td>
+</tr>
+<tr>
+    <td>ng-jq</td>
+    <td>Specifies that the application must use a library, like jQuery.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-keydown</a></td>
+    <td>Specifies a behavior on keydown events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-keypress</a></td>
+    <td>Specifies a behavior on keypress events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-keyup</a></td>
+    <td>Specifies a behavior on keyup events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-list</a></td>
+    <td>Converts text into a list (array).</td>
+</tr>
+<tr>
+    <td><a href="#">ng-maxlength</a></td>
+    <td>Specifies the maximum number of characters allowed in the input field.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-minlength</a></td>
+    <td>Specifies the minimum number of characters allowed in the input field.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-model</a></td>
+    <td>Binds the value of HTML controls to application data.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-model-options</a></td>
+    <td>Specifies how updates in the model are done.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mousedown</a></td>
+    <td>Specifies a behavior on mousedown events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mouseenter</a></td>
+    <td>Specifies a behavior on mouseenter events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mouseleave</a></td>
+    <td>Specifies a behavior on mouseleave events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mousemove</a></td>
+    <td>Specifies a behavior on mousemove events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mouseover</a></td>
+    <td>Specifies a behavior on mouseover events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-mouseup</a></td>
+    <td>Specifies a behavior on mouseup events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-non-bindable</a></td>
+    <td>Specifies that no data binding can happen in this element, or its children.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-open</a></td>
+    <td>Specifies the open attribute of an element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-options</a></td>
+    <td>Specifies &lt;options&gt; in a &lt;select&gt; list.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-paste</a></td>
+    <td>Specifies a behavior on paste events.</td>
+</tr>
+<tr>
+    <td>ng-pluralize</td>
+    <td>Specifies a message to display according to en-us localization rules.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-readonly</a></td>
+    <td>Specifies the readonly attribute of an element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-repeat</a></td>
+    <td>Defines a template for each data in a collection.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-required</a></td>
+    <td>Specifies the required attribute of an element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-selected</a></td>
+    <td>Specifies the selected attribute of an element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-show</a></td>
+    <td>Shows or hides HTML elements.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-src</a></td>
+    <td>Specifies the src attribute for the &lt;img&gt; element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-srcset</a></td>
+    <td>Specifies the srcset attribute for the &lt;img&gt; element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-style</a></td>
+    <td>Specifies the style attribute for an element.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-submit</a></td>
+    <td>Specifies expressions to run on onsubmit events.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-switch</a></td>
+    <td>Specifies a condition that will be used to show/hide child elements.</td>
+</tr>
+<tr>
+    <td>ng-transclude</td>
+    <td>Specifies a point to insert transcluded elements.</td>
+</tr>
+<tr>
+    <td><a href="#">ng-value</a></td>
+    <td>Specifies the value of an input element.</td>
+</tr>
+</tbody></table>
 </div>
 <!-- MAIN CONTENT END  -->
 
@@ -189,7 +430,7 @@
 	ADD GOOGLE ADSENSE
 </div>
 
-</div>
+</div></div>
 <!--  START CENTER TAB MAIN CONTENT HOLDER  -->
 
  <!-- START RIGHT SIDEBAR FOR ADVERTISMENT -->
