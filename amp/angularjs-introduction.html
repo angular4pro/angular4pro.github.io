@@ -1,0 +1,241 @@
+
+<!doctype html>
+<html amp lang="en-US">
+<head>	<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="What is AngularJS, Simple understanding of SPA, Why to use  Angularjs, Learn AngularJS in detail  with example, Directive ng-app, ng-model, ng-controller"/>
+<meta name="twitter:title" content="AngularjJS Introduction - Angular4Pro"/>
+<meta name="twitter:site" content="@satindersinght"/>
+<meta name="twitter:image" content="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg"/>
+<meta name="twitter:creator" content="@satindersinght"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="AngularjJS Introduction - Angular4Pro"/>
+<meta property="og:description" content="What is AngularJS, Simple understanding of SPA, Why to use  Angularjs, Learn AngularJS in detail  with example, Directive ng-app, ng-model, ng-controller"/>
+<meta property="og:url" content="https://angular4pro.com/angularjs-introduction.html"/>
+<meta property="og:site_name" content="Angular4pro"/>
+<meta property="article:publisher" content="https://facebook.com/satindersinght"/>
+<meta property="article:author" content="https://www.facebook.com/satindersinght"/>
+<meta property="article:tag" content="AngularJS"/>
+
+
+<meta property="og:image" content="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg"/>
+<meta property="og:image:width" content="640"/>
+<meta property="og:image:height" content="316"/>
+	<title>AngularjJS Introduction - Angular4Pro</title>
+		<link rel="canonical" href="https://angular4pro.com/angularjs-introduction.html"/>
+			<script custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js" async></script>
+			<script custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js" async></script>
+		<script src="https://cdn.ampproject.org/v0.js" async></script>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic">
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript>
+		<style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+		
+		
+<style amp-custom>.btn.btn-success{color:#fff;background:#51d466;border:1px solid #30c247;border-radius:2px;padding:5px;text-decoration:none;font-size:15px;position:relative}pre{background:#f5f2f0;border:1px solid #e2e2e2;padding:10px;border-radius:3px;text-shadow:0 1px #fff;color:#000;font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;line-height:1.5}.alignright{float:right}.alignleft{float:left}.aligncenter{display:block;margin-left:auto;margin-right:auto}.amp-wp-enforced-sizes{max-width:100%;margin:0 auto}.amp-wp-unknown-size img{object-fit:contain}.amp-wp-content,.amp-wp-title-bar div{margin:0 auto;max-width:600px}html{background:#ed5441}body{background:#fff;color:#353535;font-family:'Merriweather','Times New Roman',Times,serif;font-weight:300;line-height:1.75em}p,ol,ul,figure{margin:0 0 1em;padding:0}a,a:visited{color:#ed5441}a:hover,a:active,a:focus{color:#353535}blockquote{color:#353535;background:rgba(127,127,127,.125);border-left:2px solid #ed5441;margin:8px 0 24px 0;padding:16px}blockquote p:last-child{margin-bottom:0}.amp-wp-meta,.amp-wp-header div,.amp-wp-title,.wp-caption-text,.amp-wp-tax-category,.amp-wp-tax-tag,.amp-wp-comments-link,.amp-wp-footer p,.back-to-top{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif}.amp-wp-header{background-color:#ed5441}.amp-wp-header div{color:#fff;font-size:1em;font-weight:400;margin:0 auto;max-width:calc(840px - 32px);padding:.875em 16px;position:relative}.amp-wp-header a{color:#fff;text-decoration:none}.amp-wp-header .amp-wp-site-icon{background-color:#fff;border:1px solid #fff;border-radius:50%;position:absolute;right:18px;top:10px}.amp-wp-article{color:#353535;font-weight:400;margin:1.5em auto;max-width:840px;overflow-wrap:break-word;word-wrap:break-word}.amp-wp-article-header{align-items:center;align-content:stretch;display:flex;flex-wrap:wrap;justify-content:space-between;margin:1.5em 16px 1.5em}.amp-wp-title{color:#353535;display:block;flex:1 0 100%;font-weight:900;margin:0 0 .625em;width:100%}.amp-wp-meta{color:#696969;display:inline-block;flex:2 1 50%;font-size:.875em;line-height:1.5em;margin:0;padding:0}.amp-wp-article-header .amp-wp-meta:last-of-type{text-align:right}.amp-wp-article-header .amp-wp-meta:first-of-type{text-align:left}.amp-wp-byline amp-img,.amp-wp-byline .amp-wp-author{display:inline-block;vertical-align:middle}.amp-wp-byline amp-img{border:1px solid #ed5441;border-radius:50%;position:relative;margin-right:6px}.amp-wp-posted-on{text-align:right}.amp-wp-article-featured-image{margin:0 0 1em}.amp-wp-article-featured-image amp-img{margin:0 auto}.amp-wp-article-featured-image.wp-caption .wp-caption-text{margin:0 18px}.amp-wp-article-content{margin:0 16px}.amp-wp-article-content ul,.amp-wp-article-content ol{margin-left:1em}.amp-wp-article-content amp-img{margin:0 auto}.amp-wp-article-content amp-img.alignright{margin:0 0 1em 16px}.amp-wp-article-content amp-img.alignleft{margin:0 16px 1em 0}.wp-caption{padding:0}.wp-caption.alignleft{margin-right:16px}.wp-caption.alignright{margin-left:16px}.wp-caption .wp-caption-text{border-bottom:1px solid #c2c2c2;color:#696969;font-size:.875em;line-height:1.5em;margin:0;padding:.66em 10px .75em}amp-carousel{background:#c2c2c2;margin:0 -16px 1.5em}amp-iframe,amp-youtube,amp-instagram,amp-vine{background:#c2c2c2;margin:0 -16px 1.5em}.amp-wp-article-content amp-carousel amp-img{border:none}amp-carousel>amp-img>img{object-fit:contain}.amp-wp-iframe-placeholder{background:#c2c2c2 url(https://codepedia.info/wp-content/plugins/amp/assets/images/placeholder-icon.png) no-repeat center 40%;background-size:48px 48px;min-height:48px}.amp-wp-article-footer .amp-wp-meta{display:block}.amp-wp-tax-category,.amp-wp-tax-tag{color:#696969;font-size:.875em;line-height:1.5em;margin:1.5em 16px}.amp-wp-comments-link{color:#696969;font-size:.875em;line-height:1.5em;text-align:center;margin:2.25em 0 1.5em}.amp-wp-comments-link a{border-style:solid;border-color:#c2c2c2;border-width:1px 1px 2px;border-radius:4px;background-color:transparent;color:#ed5441;cursor:pointer;display:block;font-size:14px;font-weight:600;line-height:18px;margin:0 auto;max-width:200px;padding:11px 16px;text-decoration:none;width:50%;-webkit-transition:background-color .2s ease;transition:background-color .2s ease}.amp-wp-footer{border-top:1px solid #c2c2c2;margin:calc(1.5em - 1px) 0 0}.amp-wp-footer div{margin:0 auto;max-width:calc(840px - 32px);padding:1.25em 16px 1.25em;position:relative}.amp-wp-footer h2{font-size:1em;line-height:1.375em;margin:0 0 .5em}.amp-wp-footer p{color:#696969;font-size:.8em;line-height:1.5em;margin:0 85px 0 0}.amp-wp-footer a{text-decoration:none}.back-to-top{bottom:1.275em;font-size:.8em;font-weight:600;line-height:2em;position:absolute;right:16px}td,th{text-align:left}a,a:active,a:visited{text-decoration:underline}.amp-wp-inline-0786f4623984c46e15421e6979be740d{text-align:left}.amp-wp-inline-81c5881fa04819833e1ee407df58cba6{float:left;margin-bottom:10px;margin-top:10px;max-width:100%}.amp-wp-inline-310d229c6e8c0b95e3561016229daa94{float:left;height:280px;max-width:100%}.amp-wp-inline-a7c05e1567b2bb24a98d58ae656863be{max-width:388px}.amp-wp-inline-aac934a89daf91926f0328e392619034{border:2px solid #888}.amp-wp-inline-9ebb7490943b27acf21bc3342b5bd50d{text-align:justify}.amp-wp-inline-09417140ba897e29a880b81f385b486a{clear:both;text-align:left}.amp-wp-inline-c5f5c72eec081f4cbd014a3774c7104a{height:280px;max-width:336px} #myPostContent{ margin: 0 15px; }.cp-codespan {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+.previous{float: left;}.next{float: right;}.pager {
+    height: 30px;
+    list-style: none;
+}
+ ol, ul {
+    margin: 0 0 1em;
+    padding: 0;
+    padding-left: 20px;
+} amp-img > div[fallback] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    border: solid 1px #ccc;
+}
+</style>
+</head>
+<body class="">
+<amp-analytics type="googleanalytics">
+  <script type="application/json">
+  {
+    "vars": {
+      "account": "UA-105715643-1"
+    },
+    "triggers": {
+      "trackPageview": {
+        "on": "visible",
+        "request": "pageview"
+      }      
+    }
+  }
+  </script>
+  </amp-analytics>
+
+<header id="#top" class="amp-wp-header">
+
+<div>
+		<a href="https://angular4pro.com">
+							<amp-img src="https://angular4pro.com/md/images/favicon.png" width="32" height="32" class="amp-wp-site-icon"><div fallback>offline</div></amp-img>
+						Angular4Pro		</a>
+	</div>
+
+</header>
+
+<article class="amp-wp-article">
+
+	<header class="amp-wp-article-header">
+		<h1 class="amp-wp-title">AngularjJS Introduction - Angular4Pro</h1>
+				
+	</header>
+
+	<figure class="amp-wp-article-featured-image wp-caption">
+	<amp-img width="600" height="300" src="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg" class="attachment-large size-large wp-post-image amp-wp-enforced-sizes" alt="jQuery Ajax JSON Example in Asp.net with sql database" srcset="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg" sizes="(min-width: 600px) 600px, 100vw"><div fallback>offline</div></amp-img>	</figure>
+
+	<div id="myPostContent">
+		
+		<div class="col-md-7  maincnt padding_top_content">
+<h1> AngularJs Introduction </h1>
+<ul class="pager"><li class="previous"></li><li class="next"><a href="angularjs-expressions.html"> Next</a></li></ul>
+<div class="bg-grey padd-15 "> <span style="font-weight:bold;"> Overview: </span> What is AngularJS, Simple understanding of SPA, Why to use Angularjs, Learn AngularJS, Data Level Programming, Directive ng-app, ng-model, ng-controller.</div>
+<div class="padd-15">
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> What is AngularJS</h2>
+</div>
+<p> <strong>AngularJS is a full featured SPA framework</strong> , and it is written in JavaScript. SPA stands for single page application it is a web application or web site that fits on a single web page with the goal of providing a fast user experience similar to that of a desktop application. SPA can be developed using any frameworks like EmberJS, MeteorJs, ReactJs and also with AngularJs.</p>
+<p>AngularJS is a JavaScript MV structured framework to create dynamic web applications. AngularJS is open source, completely free and officially maintained by Google.
+<br> AngularJS is no different from plain HTML, but an <b>extensions to HTML with new attributes</b> i.e using <span class="cp-codespan"> ng-directives </span>.</p>
+<amp-img class="alignImg" src="https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg" width="600" height="300" alt="Angularjs is full stack SPA"><div fallback>offline</div></amp-img>
+<br>
+Before writing any code first we need to download and import <a href="https://angularjs.org/" title="AngularJs official website" target="_blank"> AngularJS library</a> on our web page, then we extend HTML with angularjs directives. <br>We can also include AngularJS library from CDN <b>[https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js]</b>.
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> AngularJS extends HTML with Directives.</h2>
+</div>
+<p>In AngularJs with the directives, we can do <b>DOM Manipulation</b>, <b>Data Binding</b> and <b>Events handling</b>. Directives teach HTML new tricks. Most important directive is <span class="cp-codespan"> ng-app </span> which tells AngularJS that this part of web page is AngularJS application. In other words <b>ng-app</b> marked it as an angularjs application.</p>
+The AngularJS framework can be divided into following three significant parts
+<ul>
+<li><span class="cp-codespan"> ng-app</span> : This directive used to define the starting point of application and it will act as the root element of an application.</li>
+<li><span class="cp-codespan"> ng-model</span> : This directive binds the value of HTML controls ( <span class="cp-codespan"> input </span> , <span class="cp-codespan"> select </span> , <span class="cp-codespan"> textarea</span> ) to application data.</li>
+<li><span class="cp-codespan"> ng-bind</span> : This directive binds the content of HTML element to application data.</li>
+</ul>
+<br>
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives</h2>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="box-shadow-outer">
+<div class="box-shadow-block box-shadow-1 text-center">
+<h5>Modules/Controllers</h5>
+<ul>
+<li> ng-app </li>
+<li> ng-controller </li>
+<li style="    list-style: none;">&nbsp; </li>
+</ul>
+</div>
+</div>
+<br>
+</div>
+<div class="col-md-4">
+<div class="box-shadow-outer">
+<div class="box-shadow-block box-shadow-1 text-center">
+<h5>DOM Manipulation</h5>
+<ul>
+<li> ng-hide </li>
+<li> ng-repeat </li>
+<li> ng-show </li>
+</ul>
+</div>
+</div>
+<br>
+</div>
+<div class="col-md-3">
+<div class="box-shadow-outer">
+<div class="box-shadow-block box-shadow-1 text-center">
+<h5>Data Binding</h5>
+<ul>
+<li> ng-bind </li>
+<li> ng-init </li>
+<li> ng-model </li>
+</ul>
+</div>
+</div>
+<br>
+</div>
+<div class="col-md-3">
+<div class="box-shadow-outer">
+<div class="box-shadow-block box-shadow-1 text-center">
+<h5>Events</h5>
+<ul>
+<li> ng-click </li>
+<li> ng-keypress </li>
+<li> ng-mouseenter</li>
+</ul>
+</div>
+</div>
+<br>
+</div>
+</div>
+<b>Note :</b> This is just some examples of directive, there are many more directives available in AngularJS, which will learn in our further articles.
+<br><br>
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> Our First AngularJS Sample Example</h2>
+</div>
+<p>Here we are going to write a simple angularjs example which displays addition of two numbers using <a href="https://angular4pro.com/number-expressions-angularjs.html" target="_blank" title="Number expression in AngularJs">angularjs number expression</a>. Our code looks like as shown in below image.
+</p>
+<amp-img width="600" height="300" class="alignImg" src="https://angular4pro.com/md/images/angularjs-sample-example.jpg" alt="AngularJS simple example"><div fallback>offline</div></amp-img>
+<br>
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> Key Player in AngularJs</h2>
+</div>
+<amp-img width="600" height="400" class="alignImg" src="md/images/AngularJs-key-player-2.jpg" alt="module, routes ,views , directives, filters, Controllers are key player in angularjs"><div fallback>offline</div></amp-img>
+<br>
+<h3>Modules are really just as containers for : </h3>
+<ol>
+<li><b>Controllers :</b> acts as <b><i>"brain"</i></b> for view<ol><li>It retrieve data from factory/Service.</li><li>It handles events trigger by view (click, mouseover event etc).</li><li>Dependent on <span class="cp-codespan"> $scope </span> object to interact with view.</li></ol></li>
+<li><b>Routes</b> : Each route is a unique path having reference to controller and view.</li>
+<li><b>Factories/ Services :</b><ol><li>It is used to call REST API.</li><li>It is used to transfer (share) data between controller.</li><li>It is used to handle custom logic.</li><li>They are Singletons.</li></ol></li>
+<li><b>Directives </b></li>
+<li><b>FIlters </b></li>
+</ol>
+<br>
+<div class="block-heading-one">
+<h2><i class="fa fa-angle-double-right color"></i> Pros &amp; Cons of AngularJS</h2>
+</div>
+Pros:
+<ul>
+<li> <b> No page refresh: </b> This means to load data, we don't need to refresh the whole web page, just load particular part of our web page which loads dynamic data.</li>
+<li><b>Code Re-useable</b> AngularJS include a lot of reusable code while developing application .i.e utility code like user navigation and browser history, which we can reuse in our project.</li>
+<li><b>Testing:</b> Applications build in angularjs are more testable as compare to other frameworks. We can easily write an automated test, and so we test various part of our application.</li>
+<li> <b> Better user experience:</b> SPA feels like a native application (like a desktop app) speedy and responsive.</li>
+<li> <b>Two Way Data Binding:</b> Data binding in AngularJS is the synchronization between the <span class="cp-codespan"> model </span> and the <span class="cp-codespan"> view </span>. This is one of the best features of Angularjs. When data in the model changes, the view reflects the change, and when data in the view changes, the model is updated as well.
+</li><li> <b>Ability to work offline:</b> Even if the user loses internet connection, SPA can still work because all the pages are already loaded.</li>
+<li><b>Designed and Developed by Google:</b> AngularJS is developed and built by a bunch of dedicated Google engineers and now it officially maintained by Google.</li>
+</ul>
+Cons:
+<ul>
+<li> <b> SEO:</b> To index SPA application, search engine crawlers should able to execute javascript. One good news is now Google, and Bing started indexing ajax based web pages, but not all search engine started (Yahoo, AOL, Baidu, Yandex)</li>
+<li> <b> Confused by many ways to handle:</b> One advantage with AngularJS is that it can be handled it in different ways, ironically this is the same feature which becomes a hurdle. As many beginners find this bit confusing while developing an application.</li>
+</ul></div>
+<ul class="pager"><li class="previous"><a href="angularjs-introduction.html">Previous </a></li><li class="next"><a href="number-expressions-angularjs.html"> Next</a></li></ul>
+
+</div>
+	</div>
+
+
+
+</article>
+<footer class="amp-wp-footer">
+	<div>
+		<h2><a href="https://angular4pro.com">Angular4Pro.com</a></h2>
+		
+		<a href="#top" class="back-to-top">Back to top</a>
+	</div>
+
+</footer>
+
+</body>
+</html>
