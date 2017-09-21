@@ -27,3 +27,11 @@ hr {
 }}
 }
 }
+.maincnt .h2 {
+    font-size: 22px;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
