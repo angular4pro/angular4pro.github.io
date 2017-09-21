@@ -31,9 +31,9 @@ We can also include AngularJS library from [CDN](https://ajax.googleapis.com/aja
 In AngularJs with the directives, we can do DOM Manipulation, Data Binding and Events handling. Directives teach HTML new tricks. Most important directive is `ng-app` which tells AngularJS that this part of web page is AngularJS application. In other words ng-app marked it as an angularjs application.
 
 The AngularJS framework can be divided into following three significant parts
-* 'ng-app' : This directive used to define the starting point of application and it will act as the root element of an application.
-* 'ng-model' : This directive binds the value of HTML controls ( input , select , textarea ) to application data.
-* 'ng-bind' : This directive binds the content of HTML element to application data.
+* `ng-app` : This directive used to define the starting point of application and it will act as the root element of an application.
+* `ng-model` : This directive binds the value of HTML controls ( input , select , textarea ) to application data.
+* `ng-bind` : This directive binds the content of HTML element to application data.
 
 ## <i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives
 <div class="row">
@@ -95,6 +95,7 @@ The AngularJS framework can be divided into following three significant parts
 
 ##  <i class="fa fa-angle-double-right color"></i> Our First AngularJS Sample Example
 Here we are going to write a simple angularjs example which displays addition of two numbers using angularjs number expression. Our code looks like as shown in below image.
+
 ![AngularJS simple example](https://angular4pro.com/md/images/angularjs-sample-example.jpg)
 
 ##  <i class="fa fa-angle-double-right color"></i> Key Player in AngularJs
