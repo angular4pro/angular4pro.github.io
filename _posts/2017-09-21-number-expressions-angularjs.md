@@ -19,13 +19,13 @@ Number expression as same as the javascript number expression. In short, if any 
 **Example 1 :**
 Here we are going to add two number .i.e 2 + 3 using number expressions. The code looks like as written below.
 
-{% highlight html%}
+```html
 {% raw %}
 <div ng-app="">
 	<p> Addition of 2 + 3 = {{ 2 + 3 }}</p>
 </div>
 {% endraw %}
-{% endhighlight %}
+```
 
 
 Same example can also be written using `ng-bind` directive in angularjs. Final code looks like as writte below.
