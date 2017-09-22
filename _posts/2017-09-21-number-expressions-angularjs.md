@@ -36,8 +36,7 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```
 **Output:** Addition of `2 + 3 = 5`
 
-{: .btn .btn-success .btn-green}
-[Try It Yourself ⇒](https://angular4pro.com/demos/editor.html?f=demo&i=105)
+[Try It Yourself ⇒](https://angular4pro.com/demos/editor.html?f=demo&i=105){: .btn .btn-success .btn-green}
 
 ---
 **Example 2 :**
@@ -59,8 +58,7 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```
 **Output:** Multiplication of `10 * 10 = 100`
 
-{: .btn .btn-success .btn-green}
-[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106)
+{: .btn .btn-success .btn-green}[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106)
 
 ---
 **Examle 3**
@@ -71,9 +69,7 @@ Here we are going to calculate an average score from mark-sheet using number exp
 Total score {{ marks.physisc + marks.chemistry + marks.math + marks.biology}} out of {{ 4 * maxMarks}}
 </div> {% endraw %}
 ```
-
-{: .btn .btn-success .btn-green}
-[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=107)
+[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=107){: .btn .btn-success .btn-green}
 
 
 
