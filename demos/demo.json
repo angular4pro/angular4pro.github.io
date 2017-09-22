@@ -51,7 +51,7 @@
       "id": 109,
       "text": "AngularJS String Expressions",
       "link": "https://angular4pro.com/string-expressions-angularjs",
-      "snippet": "<body><div ng-app ng-init=\"firstName='Satinder';lastName='Singh'\" > <p> My FullName is  {{ firstName + +lastName }} </p> </div> </body>",
+      "snippet": "<body><div ng-app ng-init=\"firstName='Satinder';lastName='Singh'\" > <p> My FullName is  {{ firstName +\" \"+lastName }} </p> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
