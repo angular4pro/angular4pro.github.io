@@ -19,7 +19,8 @@ For example, if we want to add two numbers 2 and 3, then 2 + 3 is an expression,
 
 In AngularJS, expressions are used to bind application data to HTML. AngularJS expression is similar like Javascript expression but written inside double braces like ```{% raw %} {{ expression }} {% endraw %}``` example ```{% raw %} {{ 2 + 3 }} {% endraw %}```. AngularJS expression can also be written inside a directive with `ng-bind="expression"`. AngularJS resolves the expression, and return the result output where they have used in web-page.
 
-{:.txtCenter}***Expressions are code snippets placed in binding markup*** 
+{: .txtCenter }
+***Expressions are code snippets placed in binding markup*** 
 ![Understanding expressions in AngularJs](https://angular4pro.com/md/images/expression-angularjs.jpg)
 
 ## <i class="fa fa-angle-double-right color"></i> Limitation of AngularJS Expressions.
