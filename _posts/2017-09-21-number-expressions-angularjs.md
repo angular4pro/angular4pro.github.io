@@ -19,8 +19,7 @@ Number expression as same as the javascript number expression. In short, if any 
 **Example 1 :**
 Here we are going to add two number .i.e 2 + 3 using number expressions. The code looks like as written below.
 
-```html
-{% raw %}
+```html {% raw %}
 <div ng-app="">
 	<p> Addition of 2 + 3 = {{ 2 + 3 }}</p>
 </div>
@@ -37,17 +36,18 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```
 **Output:** Addition of `2 + 3 = 5`
 
-[Try It Yourself ⇒](https://angular4pro.com/demos/editor.html?f=demo&i=105){: btn btn-success btn-green}
+{: .btn .btn-success .btn-green}
+[Try It Yourself ⇒](https://angular4pro.com/demos/editor.html?f=demo&i=105)
 
 ---
 **Example 2 :**
 Here we are going to multiply two number .i.e 2 x 3 using number expressions. The code looks like as written below.
 
 
-```html
+```html {% raw %}
 <div ng-app="">
 	<p> Multiplication of 10 * 10 = {{ 10 * 10 }}</p>
-</div>
+</div> {% endraw %}
 ```
 
 Same example can also be written using `ng-bind` directive in angularjs. Final code looks like as writte below.
@@ -59,19 +59,21 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```
 **Output:** Multiplication of `10 * 10 = 100`
 
-[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106){: btn btn-success btn-green}
+{: .btn .btn-success .btn-green}
+[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106)
 
 ---
 **Examle 3**
 Here we are going to calculate an average score from mark-sheet using number expressions. The code looks like as written below.
 
-```html
+```html {% raw %}
 <div ng-app="" ng-init="minMarks=35;maxMarks=100; marks={physisc:90,chemistry:65,math:75,biology:80}">
 Total score {{ marks.physisc + marks.chemistry + marks.math + marks.biology}} out of {{ 4 * maxMarks}}
-</div>
+</div> {% endraw %}
 ```
 
-[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=107){: btn btn-success btn-green}
+{: .btn .btn-success .btn-green}
+[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=107)
 
 
 
