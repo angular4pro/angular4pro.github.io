@@ -17,7 +17,7 @@ Before digging into AngularJS Expressions, first, we understand what is an expre
 
 For example, if we want to add two numbers 2 and 3, then 2 + 3 is an expression, and our result will be `2 + 3 = 5` that is expression evaluates to a single value. Similarly for string concatenation .i.e var FullName="Satinder" +" Singh", gives "Satinder Singh" concantenate string user full name.
 
-In AngularJS, expressions are used to bind application data to HTML. AngularJS expression is similar like Javascript expression but written inside double braces like `{{ expression }}` example `{{ 2 + 3 }}`. AngularJS expression can also be written inside a directive with `ng-bind="expression"`. AngularJS resolves the expression, and return the result output where they have used in web-page.
+In AngularJS, expressions are used to bind application data to HTML. AngularJS expression is similar like Javascript expression but written inside double braces like **{{ expression }}** example **{{ 2 + 3 }}**{: .hg }. AngularJS expression can also be written inside a directive with `ng-bind="expression"`. AngularJS resolves the expression, and return the result output where they have used in web-page.
 
 ***Expressions are code snippets placed in binding markup***
 ![Understanding expressions in AngularJs](https://angular4pro.com/md/images/expression-angularjs.jpg)
