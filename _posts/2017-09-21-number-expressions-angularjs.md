@@ -58,7 +58,7 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```
 **Output:** Multiplication of `10 * 10 = 100`
 
-{: .btn .btn-success .btn-green}[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106)
+[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=106){: .btn .btn-success .btn-green}
 
 ---
 **Examle 3**
