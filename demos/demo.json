@@ -61,6 +61,21 @@
       "snippet": "<body><div ng-app ng-init=\"user= {firstName:'Satinder ',lastName:'Singh',gender:'Male'}\" >  <p> My FullName is  {{ user.firstName+" "+user.lastName }} </p></div></body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    } , {
+      "id": 111,
+      "text": "AngularJS Array Expressions examp",
+      "link": "https://angular4pro.com/object-expressions-angularjs1",
+      "snippet": "<body><div ng-app ng-init=\"fruits = ['Apple', 'Orange', 'Mango', 'Banana']\" > <p> Fruits  <span ng-bind="fruits[0] +\" , \" + fruits[1] + \" ,\"+ fruits[2] +\" , \" + fruits[3]" > </span></p></div></body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    },
+   {
+      "id": 112,
+      "text": "AngularJS Array Expressions",
+      "link": "https://angular4pro.com/object-expressions-angularjs1",
+      "snippet": "<body><div ng-app ng-init=\"fruits = ['Apple', 'Orange', 'Mango', 'Banana']\" ><ul>	<li ng-repeat=\"item in fruits\"> {{ item }} </li></ul></div></body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
 
     
