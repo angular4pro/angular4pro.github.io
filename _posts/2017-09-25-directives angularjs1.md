@@ -22,12 +22,14 @@ In angularjs most important directive is the `ng-app` which tells angularjs that
 * Used to working with Data Binding.
 * Used to reference modules and controllers.
 * Event handling, trigger by views (click, mouseover event etc).
-* Modify CSS, and also determine where views are loaded on our page.
+* Modify CSS, and also determine where views are loaded on our page.  
 
-## <i class="fa fa-angle-double-right color"></i> Defining Directives.
+
+## <i class="fa fa-angle-double-right color"></i> Defining Directives. 
 
 **Directives can be defined in multiple ways as shown in below image.**
-<img class="alignImg" src="https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg" alt="defining directives in angularjs">
+<img class="alignImg" src="https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg" alt="defining directives in angularjs">  
+
 
 ## <i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives
 <div class="row">
