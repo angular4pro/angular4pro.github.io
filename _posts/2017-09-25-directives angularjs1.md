@@ -15,9 +15,9 @@ image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 
 In AngularJs with directive we can do **DOM Manipulation, Data Binding and handle Events**. Directives teach HTML new tricks. Directives extends the HTML by adding special attribute prefix `ng-` where ng stands for Angular.
 
-In angularjs most important directive is `ng-app` which tells angularjs that this part of webpage is AngularJS application. And `ng-model` is also another important directives, which is used for data binding in AngularJs. AngularJS includes various built-in directives and we can also create custom directives in angularjs application.
+In angularjs most important directive is the `ng-app` which tells angularjs that this part of the webpage is AngularJS application. And `ng-model` is also another important directives, which is used for data binding in AngularJs. AngularJS includes various built-in directives and we can also create custom directives in angularjs application.
 
-####Directives are used to perform variety of different function to build an application .i.e
+#### Directives are used to perform variety of different function to build an application .i.e
 * Used for DOM manipulation.
 * Used to working with Data Binding.
 * Used to reference modules and controllers.
@@ -27,7 +27,7 @@ In angularjs most important directive is `ng-app` which tells angularjs that thi
 ## <i class="fa fa-angle-double-right color"></i> Defining Directives.
 
 **Directives can be defined in multiple ways as shown in below image.**
-<img class="alignImg" src="md/images/defining-directives-in-angularjs.jpg" alt="defining directives in angularjs">
+<img class="alignImg" src="https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg" alt="defining directives in angularjs">
 
 ## <i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives
 <div class="row">
