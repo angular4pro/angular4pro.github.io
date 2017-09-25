@@ -5,10 +5,10 @@ heading: AngularJs Introduction
 overview: What is AngularJS, Simple understanding of SPA, Why to use Angularjs, Learn AngularJS, Data Level Programming, Directive ng-app, ng-model, ng-controller.
 desc: What is AngularJS, Simple understanding of SPA, Why to use  Angularjs, Learn AngularJS in detail  with example, Directive ng-app, ng-model, ng-controller. 
 keywords: angularjs introduction, understanding angularjs, ng-app, ng-module
-permalink: /angularjs-introduction1/
+permalink: /angularjs-introduction/
 author: Satinder singh
 prevLink: #
-nextLink: https://angular4pro.com/angularjs-expressions.html
+nextLink: https://angular4pro.com/angularjs-expressions
 image: https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg
 ---
 

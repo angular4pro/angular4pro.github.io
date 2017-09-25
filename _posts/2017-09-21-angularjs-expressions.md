@@ -5,10 +5,10 @@ heading: AngularJs Expressions
 overview: AngularJS Expressions simple understanding, What is Angularjs Expressions, Diffrent types of AngularJS Expressions, Angularjs concatenate string, Concatenate variables in AngularJS.
 desc: AngularJS Expressions simple understanding, What is Angularjs Expressions, Diffrent types of AngularJS Expressions, Angularjs concatenate string, Concatenate variables in AngularJS. 
 keywords: angularjs introduction, understanding angularjs, ng-app, ng-module
-permalink: /angularjs-expressions1/
+permalink: /angularjs-expressions/
 author: Satinder singh
-prevLink: https://angular4pro.com/angularjs-introduction.html
-nextLink: https://angular4pro.com/number-expressions-angularjs.html
+prevLink: https://angular4pro.com/angularjs-introduction
+nextLink: https://angular4pro.com/number-expressions-angularjs
 image: https://angular4pro.com/md/images/expression-angularjs.jpg
 ---
 

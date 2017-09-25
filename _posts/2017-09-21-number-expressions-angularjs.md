@@ -5,7 +5,7 @@ heading: Number expressions in AngularJS
 overview: Understanding Number Expressions in AngularJS, What is Number Expressions, AngularJS number expression example, AngularJS binds data to HTML using Expressions.
 desc: Understanding Number Expressions in AngularJS, What is Number Expressions, AngularJS number expression example, AngularJS binds data to HTML using Expressions. 
 keywords: number expression
-permalink: /number-expressions-angularjs1/
+permalink: /number-expressions-angularjs/
 author: Satinder singh
 prevLink: https://angular4pro.com/angularjs-expressions
 nextLink: https://angular4pro.com/string-expressions-angularjs

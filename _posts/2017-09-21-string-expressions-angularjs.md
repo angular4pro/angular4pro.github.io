@@ -5,7 +5,7 @@ heading: String expressions in AngularJS
 overview: Understanding String Expressions in AngularJS, What is String Expressions, AngularJS string expression example, AngularJS binds data to HTML using Expressions.
 desc: Understanding String Expressions in AngularJS, What is String Expressions, AngularJS string expression example, AngularJS binds data to HTML using Expressions. 
 keywords: String expression
-permalink: /string-expressions-angularjs1/
+permalink: /string-expressions-angularjs/
 author: Satinder singh
 prevLink: https://angular4pro.com/number-expressions-angularjs
 nextLink: https://angular4pro.com/object-expressions-angularjs

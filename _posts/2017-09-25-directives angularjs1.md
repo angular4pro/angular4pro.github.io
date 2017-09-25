@@ -5,9 +5,9 @@ heading: Directives in AngularJs with example
 overview: What are Directives, Understanding directives in AngularJs, Defining Directives, Complete list of directives used in AngularJs, Examples of AngularJs Directives.
 desc: What are Directives, Understanding directives in AngularJs, Defining Directives, Complete list of directives used in AngularJs, Examples of AngularJs Directives.
 keywords: directives angularjs
-permalink: /directives-angularjs1/
+permalink: /directives-angularjs/
 author: Satinder singh
-prevLink: https://angular4pro.com/array-expressions-angularjs1
+prevLink: https://angular4pro.com/array-expressions-angularjs
 nextLink: https://angular4pro.com/ng-app-angularjs
 image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 ---

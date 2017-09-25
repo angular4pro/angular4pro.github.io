@@ -5,10 +5,10 @@ heading: Array expressions in AngularJS
 overview: Understanding Array Expressions in AngularJS, What is Array Expressions, Use of AngularJS Array expression with an example, AngularJS binds data to HTML using Expressions.
 desc: Understanding Array Expressions in AngularJS, What is Array Expressions, Use of AngularJS Array expression with an example, AngularJS binds data to HTML using Expressions.
 keywords: array expressions
-permalink: /array-expressions-angularjs1/
+permalink: /array-expressions-angularjs/
 author: Satinder singh
-prevLink: https://angular4pro.com/object-expressions-angularjs1
-nextLink: https://angular4pro.com/directives-angularjs1
+prevLink: https://angular4pro.com/object-expressions-angularjs
+nextLink: https://angular4pro.com/directives-angularjs
 image: https://angular4pro.com/md/images/expression-angularjs.jpg
 ---
 ## <i class="fa fa-angle-double-right color"></i> AngularJS Array Expressions
