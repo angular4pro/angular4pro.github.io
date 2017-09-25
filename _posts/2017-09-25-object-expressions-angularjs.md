@@ -31,7 +31,7 @@ Same example can also be written using `ng-bind` directive in angularjs. Final c
 ```html {% raw %}
 <div ng-app="" ng-init="user= {firstName:'Satinder ',lastName:'Singh',gender:'Male'}" >
     <p> My FullName is  <span ng-bind="user.firstName+ +user.lastName" > </span> </p>
-</div>
+</div> {% endraw %}
 ```
 **Output:** My FullName is Satinder Singh
 
