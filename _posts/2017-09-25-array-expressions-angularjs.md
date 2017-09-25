@@ -30,7 +30,7 @@ Same example can also be written using ng-bind directive in angularjs. Final cod
 
 ```html {% raw %}
 <div ng-app="" ng-init="fruits = ['Apple', 'Orange', 'Mango', 'Banana']" >
-    <p> Fruits  <span ng-bind="fruits[0] +" , " + fruits[1] + " , "+ fruits[2] +" , " + fruits[3]" > </span> </p>
+    <p> Fruits  <span ng-bind='fruits[0] +"-" +fruits[1]+" - " +fruits[2]+"-"  +fruits[3]'> </span></p>
 </div>	
 {% endraw %}
 ```
