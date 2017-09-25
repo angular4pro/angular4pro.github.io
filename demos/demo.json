@@ -54,6 +54,13 @@
       "snippet": "<body><div ng-app ng-init=\"firstName='Satinder';lastName='Singh'\" > <p> My FullName is  {{ firstName +\" \"+lastName }} </p> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    },{
+      "id": 110,
+      "text": "AngularJS Object Expressions",
+      "link": "https://angular4pro.com/object-expressions-angularjs1",
+      "snippet": "<body><div ng-app ng-init=\"user= {firstName:'Satinder ',lastName:'Singh',gender:'Male'}\" >  <p> My FullName is  {{ user.firstName+ +user.lastName }} </p></div></body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
 
     
