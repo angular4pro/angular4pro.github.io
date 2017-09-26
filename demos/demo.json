@@ -76,7 +76,16 @@
       "snippet": "<body><div ng-app ng-init=\"fruits = ['Apple', 'Orange', 'Mango', 'Banana']\"><ul><li ng-repeat=\"item in fruits\"> {{ item }}  </li> </ul> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    },
+	{
+      "id": 113,
+      "text": "AngularJS ng-app Directives",
+      "link": "https://angular4pro.com/ng-app-directives-angularjs/",
+      "snippet": "<body><div id=\"parentDiv\"> <span> Sum of 2 + 5  = </span>  {{ 2 + 5}} <br/> <div ng-app id=\"childDiv\"> <span> Answer of  10 - 8  = </span>  {{ 10 - 8 }} </div> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
+
   
 ]
 
