@@ -16,7 +16,7 @@ image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 
 In angularjs, **ng-model** directive binds the value of HTML controls (`input`, `select`, `textarea`) to application data i.e it is used for data binding in AngularJs. The main purpose on it is to bind the **view** to the **model**.
 
-***Usage of ng-model are as follows.***
+**Usage of ng-model are as follows.**
 
 1. Used to bind HTML control such as textbox , textarea, input, select dropdownlist.
 2. Allows validation of user input ( number, e-mail, required ).
@@ -43,8 +43,8 @@ If you are confusing between using **ng-bind** or **ng-model**, then follwing Q&
 
 **Q2 Do you need to bind text content (and not value)?**
 
-**Ans:** * Yes: `ng-bind`
-         * No: `ng-model` (you should not use ng-bind where value is required)
+**Ans:**  * Yes: `ng-bind`
+          * No: `ng-model` (you should not use ng-bind where value is required)
 
 ---
 
