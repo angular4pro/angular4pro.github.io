@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: ng-init directive in AngularJS with example
@@ -12,6 +11,7 @@ prevLink: https://angular4pro.com/ng-app-directives-angularjs/
 nextLink: https://angular4pro.com/ng-model-directives-angularjs
 image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 ---
+
 ## <i class="fa fa-angle-double-right color"></i> What is ng-init directives?
 
 In angularjs, the ng-init directives defines the initial values for an angularjs application. It means ng-init used to initialize application data and which will allows evaluating an expression in given scope. In project sometime we may require some local data for our application, so this can be done with the ng-init directive. 
