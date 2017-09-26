@@ -84,6 +84,22 @@
       "snippet": "<body><div id=\"parentDiv\"> <span> Sum of 2 + 5  = </span>  {{ 2 + 5}} <br/> <div ng-app id=\"childDiv\"> <span> Answer of  10 - 8  = </span>  {{ 10 - 8 }} </div> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    } ,
+  {
+      "id": 114,
+      "text": "AngularJS ng-init Directives",
+      "link": "https://angular4pro.com/ng-init-directives-angularjs/",
+      "snippet": "<body> <div ng-app ng-init=\"message='Hello World'\"> {{ message }} </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    },
+  {
+      "id": 115,
+      "text": "AngularJS ng-init Directives ",
+      "link": "https://angular4pro.com/ng-init-directives-angularjs/",
+      "snippet": "<body> <div ng-app ng-init=\"minMarks=35;maxMarks=100; marks={physisc:90,chemistry:65,math:75,biology:80}\">   Total score {{ marks.physisc + marks.chemistry + marks.math + marks.biology}} out of {{ 4 * maxMarks}}  </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
 
   
