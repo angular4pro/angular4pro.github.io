@@ -34,25 +34,21 @@ For example we have two textboxes one for product quantity and other for product
 
 If you are confusing between using **ng-bind** or **ng-model**, then follwing Q&N will clear your confusion:
 
-**Q1 Do you only need to display data?**
-
-**Ans:**    * Yes: `ng-bind` (one-way binding)
-            * No: `ng-model` (two-way binding)
+**# Do you only need to display data?**
+* Yes: `ng-bind` (one-way binding)
+* No: `ng-model` (two-way binding)
 
 ---
 
-**Q2 Do you need to bind text content (and not value)?**
-
-**Ans:**  
+**# Do you need to bind text content (and not value)?**
 * Yes: `ng-bind`
 * No: `ng-model` (you should not use ng-bind where value is required)
 
 ---
 
-**Q3 Is your tag a HTML `<input>`?**
-
-**Ans:** * Yes: `ng-model` (you cannot use ng-bind with input tag)
-         * No: `ng-bind`
+**# Is your tag a HTML `<input>`?**
+* Yes: `ng-model` (you cannot use ng-bind with input tag)
+* No: `ng-bind`
 
 
 
