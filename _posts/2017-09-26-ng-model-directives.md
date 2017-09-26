@@ -36,15 +36,16 @@ If you are confusing between using **ng-bind** or **ng-model**, then follwing Q&
 
 **Q1 Do you only need to display data?**
 
-**Ans:** * Yes: `ng-bind` (one-way binding)
-         * No: `ng-model` (two-way binding)
+**Ans:**    * Yes: `ng-bind` (one-way binding)
+            * No: `ng-model` (two-way binding)
 
 ---
 
 **Q2 Do you need to bind text content (and not value)?**
 
-**Ans:**  * Yes: `ng-bind`
-          * No: `ng-model` (you should not use ng-bind where value is required)
+**Ans:**  
+* Yes: `ng-bind`
+* No: `ng-model` (you should not use ng-bind where value is required)
 
 ---
 
