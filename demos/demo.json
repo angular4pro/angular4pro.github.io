@@ -108,7 +108,24 @@
       "snippet": "<body> <div ng-app ng-init=\"pdtQuantity=2;pdtPrice =100\"> <table> <tr> <td>Quantity :</td> <td><input type=\"text\" ng-model=\"pdtQuantity\" /> </td> </tr> <tr> <td>Price :</td> <td><input type=\"text\" ng-model=\"pdtPrice\" /> </td>  </tr> <tr> <td><b>Total ::</b> </td> <td><b> {{pdtQuantity * pdtPrice }} </b> </td> </tr> </table> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    },{
+      "id": 117,
+      "text": "AngularJS ng-repeat Directives ",
+      "link": "https://angular4pro.com/ng-repeat-directives-angularjs/",
+      "snippet": "<body> <div ng-app ng-init=\"names=['Amit sarna','Satinder singh','Sagar gada','Leslie mac','Andrea ely']\"> <ul> <li ng-repeat=\"x in names\">{{ x }}</li> </ul> </div> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
+,{
+      "id": 118,
+      "text": "AngularJS ng-bind Directives ",
+      "link": "https://angular4pro.com/ng-bind-directives-angularjs/",
+      "snippet": "<body> <div ng-app ng-init=\"pdtQuantity=2;pdtPrice =100\"> <table> <tr> <td>Quantity :</td> <td><input type=\"text\" ng-model=\"pdtQuantity\" /> </td> </tr> <tr> <td>Price :</td> <td><input type=\"text\" ng-model=\"pdtPrice\" /> </td>  </tr> <tr> <td><b>Total ::</b> </td> <td><b> {{pdtQuantity * pdtPrice }} </b> </td> </tr> </table> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    }
+
+
 
   
 ]
