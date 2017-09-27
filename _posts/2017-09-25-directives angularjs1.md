@@ -9,7 +9,7 @@ permalink: /directives-angularjs/
 author: Satinder singh
 prevLink: https://angular4pro.com/array-expressions-angularjs
 nextLink: https://angular4pro.com/ng-app-directives-angularjs
-image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
+image: https://angular4pro.com/md/images/defining-directives-in-angularjs.png
 ---
 ## <i class="fa fa-angle-double-right color"></i> What are Directives?
 
@@ -28,7 +28,7 @@ In angularjs most important directive is the `ng-app` which tells angularjs that
 ## <i class="fa fa-angle-double-right color"></i> Defining Directives. 
 
 **Directives can be defined in multiple ways as shown in below image.**
-<img class="alignImg" src="https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg" alt="defining directives in angularjs">  
+<img class="alignImg" src="https://angular4pro.com/md/images/defining-directives-in-angularjs.png" alt="defining directives in angularjs">  
 
 
 ## <i class="fa fa-angle-double-right color"></i> Example of AngularJs Directives
