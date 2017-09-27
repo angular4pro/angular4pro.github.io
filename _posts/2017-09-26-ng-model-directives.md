@@ -24,6 +24,13 @@ In angularjs, **ng-model** directive binds the value of HTML controls (`input`, 
 
 ---
 
+**Two way Data Binding**
+
+Javascript dosen't provide native support for data binding. But AngularJS has abilty of two way data binding with ng-model directives, which leads to significant reductions in code.
+
+![ng-model directives two way binding](https://angular4pro.com/md/images/ng-model-two-way-binding.png "Angular JS ng-model directives uses two way data binding.")
+
+
 ### Example: ng-model two way binding 
 
 For example we have two textboxes one for product quantity and other for product price. Now we want to calculate its total price, when any textboxes values gets changed. So here we use ng-model directive to map both the textbox values to our data model, calculate it and save it into database.
