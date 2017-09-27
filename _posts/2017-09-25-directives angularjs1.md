@@ -8,7 +8,7 @@ keywords: directives angularjs
 permalink: /directives-angularjs/
 author: Satinder singh
 prevLink: https://angular4pro.com/array-expressions-angularjs
-nextLink: https://angular4pro.com/ng-app-angularjs
+nextLink: https://angular4pro.com/ng-app-directives-angularjs
 image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 ---
 ## <i class="fa fa-angle-double-right color"></i> What are Directives?
