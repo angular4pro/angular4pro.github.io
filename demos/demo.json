@@ -101,6 +101,14 @@
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
+,{
+      "id": 116,
+      "text": "AngularJS ng-model Directives ",
+      "link": "https://angular4pro.com/ng-model-directives-angularjs/",
+      "snippet": "<body> <div ng-app ng-init=\"pdtQuantity=2;pdtPrice =100\"> <table> <tr> <td>Quantity :</td> <td><input type=\"text\" ng-model=\"pdtQuantity\" /> </td> </tr> <tr> <td>Price :</td> <td><input type=\"text\" ng-model=\"pdtPrice\" /> </td>  </tr> <tr> <td><b>Total ::</b> </td> <td><b> {{pdtQuantity * pdtPrice }} </b> </td> </tr> </table> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    }
 
   
 ]
