@@ -53,6 +53,8 @@ The code looks like as written below
 
 **Output:**  Hello World
 
+![Using ng-init directive example 1 output](https://angular4pro.com./md/images/out-put-1.JPG "ng-init directive example 1 output")
+
 ---
 
 #### Example 2: Use ng-init with multiple & complex values.
@@ -66,7 +68,10 @@ Here in this example, we learn how to use ng-init with complex JSON data. Here w
 ```
 [Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=115){: .btn .btn-success .btn-green}
 
-**Output:**  Hello World
+**Output:**  
+
+![Using ng-init directive  with complex JSON data example 2 output](https://angular4pro.com./md/images/out-put-2.JPG "ng-init directive with complex JSON data example 2 output")
+
 
 
 ---
