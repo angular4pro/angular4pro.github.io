@@ -19,46 +19,48 @@
 <div class="container"> <h2>Angular Js - Introduction<div class="clearfix"></div></div></div>
 <div class="row">
 
+{% assign current = page.url | downcase | split: '/' %}
+  
 <div class="leftSidebar col-md-2 hidden-xs hidden-sm hidden-print">
 <ul class="customList padding_top_content">
-<li class="selected"><a href="https://angular4pro.com/angularjs-introduction">Introduction</a></li>
-<li><a href="https://angular4pro.com/angularjs-expressions">Expressions</a></li>
+<li {% if current[1] == 'angularjs-introduction' %}class='selected'{% endif %}   ><a href="https://angular4pro.com/angularjs-introduction">Introduction</a></li>
+<li {% if current[1] == 'angularjs-expressions' %}class='selected'{% endif %}   ><a href="https://angular4pro.com/angularjs-expressions">Expressions</a></li>
 <li>
 <ul class="childUl">
-<li> <a href="https://angular4pro.com/number-expressions-angularjs"> AngularJs Number </a> </li>
-<li> <a href="https://angular4pro.com/string-expressions-angularjs"> AngularJs String </a> </li>
-<li> <a href="https://angular4pro.com/object-expressions-angularjs"> AngularJs Object </a> </li>
-<li> <a href="https://angular4pro.com/array-expressions-angularjs"> AngularJs Array </a> </li>
+<li {% if current[1] == 'number-expressions-angularjs' %}class='selected'{% endif %}  > <a href="https://angular4pro.com/number-expressions-angularjs"> AngularJs Number </a> </li>
+<li {% if current[1] == 'string-expressions-angularjs' %}class='selected'{% endif %}  > <a href="https://angular4pro.com/string-expressions-angularjs"> AngularJs String </a> </li>
+<li {% if current[1] == 'object-expressions-angularjs' %}class='selected'{% endif %}  > <a href="https://angular4pro.com/object-expressions-angularjs"> AngularJs Object </a> </li>
+<li {% if current[1] == 'array-expressions-angularjs' %}class='selected'{% endif %}  > <a href="https://angular4pro.com/array-expressions-angularjs"> AngularJs Array </a> </li>
 </ul>
 </li>
-<li><a href="https://angular4pro.com/directives-angularjs">Directives</a></li>
+<li {% if current[1] == 'directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/directives-angularjs">Directives</a></li>
 <li>
 <ul class="childUl">
-<li><a href="https://angular4pro.com/ng-app-directives-angularjs">ng-app</a></li>
-<li><a href="https://angular4pro.com/ng-init-directives-angularjs">ng-init</a></li>
-<li><a href="https://angular4pro.com/ng-model-directives-angularjs">ng-model</a></li>
-<li><a href="https://angular4pro.com/ng-repeat-directives-angularjs">ng-repeat</a></li>
-<li><a href="https://angular4pro.com/ng-bind-directives-angularjs">ng-bind</a></li>
-<li><a href="https://angular4pro.com/ng-show-ng-hide-angularjs">ng-show/ng-hide</a></li>
-<li><a href="https://angular4pro.com/ng-switch-directives-angularjs">ng-switch</a></li>
-<li><a href="https://angular4pro.com/ng-if-directives-angularjs">ng-if</a></li>
-<li><a href="https://angular4pro.com/ng-class-directives-angularjs">ng-class</a></li>
-<li><a href="https://angular4pro.com/ng-include-directives-angularjs">ng-include</a></li>
-<li><a href="https://angular4pro.com/ng-view-directives-angularjs">ng-view</a></li>
+<li {% if current[1] == 'ng-app-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-app-directives-angularjs">ng-app</a></li>
+<li {% if current[1] == 'ng-init-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-init-directives-angularjs">ng-init</a></li>
+<li {% if current[1] == 'ng-model-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-model-directives-angularjs">ng-model</a></li>
+<li {% if current[1] == 'ng-repeat-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-repeat-directives-angularjs">ng-repeat</a></li>
+<li {% if current[1] == 'ng-bind-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-bind-directives-angularjs">ng-bind</a></li>
+<li {% if current[1] == 'ng-show-ng-hide-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-show-ng-hide-angularjs">ng-show/ng-hide</a></li>
+<li {% if current[1] == 'ng-switch-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-switch-directives-angularjs">ng-switch</a></li>
+<li {% if current[1] == 'ng-if-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-if-directives-angularjs">ng-if</a></li>
+<li {% if current[1] == 'ng-class-directives-angularj' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-class-directives-angularjs">ng-class</a></li>
+<li {% if current[1] == 'ng-include-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-include-directives-angularjs">ng-include</a></li>
+<li {% if current[1] == 'ng-view-directives-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/ng-view-directives-angularjs">ng-view</a></li>
 </ul>
 </li>
-<li><a href="https://angular4pro.com/filters-angularjs">Filters</a></li>
+<li {% if current[1] == 'filters-angularjs' %}class='selected'{% endif %} ><a href="https://angular4pro.com/filters-angularjs">Filters</a></li>
 <li>
 <ul class="childUl">
-<li><a href="https://angular4pro.com/number-filter-angularjs">Number filter</a></li>
-<li><a href="https://angular4pro.com/lowercase-format-filter-angularjs"> LowerCase filter </a></li>
-<li><a href="https://angular4pro.com/uppercase-format-filter-angularjs"> UpperCase filter</a></li>
-<li><a href="https://angular4pro.com/date-filter-angularjs"> Date filter</a></li>
-<li><a href="https://angular4pro.com/sort-orderby-filter-angularjs"> OrderBy Filter</a></li>
-<li><a href="https://angular4pro.com/curreny-filter-angularjs"> Curreny </a></li>
-<li><a href="https://angular4pro.com/filter-angularjs"> Filter</a></li>
-<li><a href="https://angular4pro.com/limit-to-filter-angularjs"> Limit to</a></li>
-<li><a href="https://angular4pro.com/custom-filter-angularjs"> Custom Filter</a></li>
+<li {% if current[1] == 'number-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/number-filter-angularjs">Number filter</a></li>
+<li {% if current[1] == 'lowercase-format-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/lowercase-format-filter-angularjs"> LowerCase filter </a></li>
+<li {% if current[1] == 'uppercase-format-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/uppercase-format-filter-angularjs"> UpperCase filter</a></li>
+<li {% if current[1] == 'date-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/date-filter-angularjs"> Date filter</a></li>
+<li {% if current[1] == 'sort-orderby-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/sort-orderby-filter-angularjs"> OrderBy Filter</a></li>
+<li {% if current[1] == 'curreny-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/curreny-filter-angularjs"> Curreny </a></li>
+<li {% if current[1] == 'filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/filter-angularjs"> Filter</a></li>
+<li {% if current[1] == 'limit-to-filter-angularjs' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/limit-to-filter-angularjs"> Limit to</a></li>
+<li {% if current[1] == 'custom-filter-angularj' %}class='selected'{% endif %}  ><a href="https://angular4pro.com/custom-filter-angularjs"> Custom Filter</a></li>
 </ul>
 </li>
 <li><a href="https://angular4pro.com/data-binding-angularjs">Data Binding</a></li>
@@ -93,3 +95,7 @@
  
 
 </html>
+
+
+
+
