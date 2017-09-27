@@ -20,7 +20,7 @@ AngularJS is a JavaScript MV structured framework to create dynamic web applicat
 
 AngularJS is no different from plain HTML, but an extensions to **HTML with new attributes** i.e using `ng-directives`.
 
-![Angularjs is full stack SPA](https://angular4pro.com/md/images/angular-js-full-stack-spa.jpg)
+![Angularjs is full stack SPA](https://angular4pro.com/md/images/angular-js-full-stack-spa.png "Angularjs is full stack SPA")
 
 Before writing any code first we need to download and import [AngularJS](https://angularjs.org/){: target='_blank'} library on our web page, then we extend HTML with angularjs directives.
 
