@@ -33,7 +33,33 @@ Javascript dosen't provide native support for data binding. But AngularJS has ab
 
 ### Example: ng-model two way binding 
 
-For example we have two textboxes one for product quantity and other for product price. Now we want to calculate its total price, when any textboxes values gets changed. So here we use ng-model directive to map both the textbox values to our data model, calculate it and save it into database.
+For example we have two textboxes one for product quantity and other for product price. Now we want to calculate its total price, when any textboxes values gets changed. So here we use ng-model directive to map both the textbox values to our data model, calculate it and further we can save it into database.
+
+```html {% raw %}
+<div ng-app ng-init="pdtQuantity=2;pdtPrice =100">
+  <table>
+    <tr>
+      <td>Quantity :</td>
+      <td><input type="text" ng-model="pdtQuantity" /> </td>
+    </tr>
+    <tr>
+      <td>Price :</td>
+      <td><input type="text" ng-model="pdtPrice" />
+      </td>
+    </tr>
+    <tr>
+      <td><b>Total ::</b> </td>
+      <td><b> {{pdtQuantity * pdtPrice }} </b> </td>
+    </tr>
+  </table>
+</div>{% endraw %}
+```
+
+[Try is yourself](https://angular4pro.com/demos/editor.html?f=demo&i=116){: .btn .btn-success .btn-green}
+
+**OutPut:**
+
+![ng-model directives two way data binding](https://angular4pro.com/md/images/ng-model-two-way-binding-angular.gif "ng-model directives two way data binding example output")
 
 ---
 
