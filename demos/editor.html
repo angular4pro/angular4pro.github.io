@@ -42,7 +42,7 @@
 </div>
 </div> <style type="text/css">.td-main-content-wrap .td-container{width:100%!important}</style>
 <script type="text/javascript">function runCode_1(){var text=document.getElementById("myTextareaCode").value;var ifr=document.createElement("iframe");ifr.setAttribute("frameborder","0");ifr.setAttribute("id","iframeResult");document.getElementById("myIframewrapper").innerHTML="";document.getElementById("myIframewrapper").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.open();ifrw.document.write(text);ifrw.document.close();if(ifrw.document.body&&!ifrw.document.body.isContentEditable){ifrw.document.body.contentEditable=true;ifrw.document.body.contentEditable=false;}}
-runCode_1();function runCode(){var text=document.getElementById("myTextareaCode").value;var ifr=document.createElement("iframe");ifr.setAttribute("frameborder","0");ifr.setAttribute("id","iframeResult");document.getElementById("myIframewrapper").innerHTML="";document.getElementById("myIframewrapper").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.open();ifrw.document.write(text);ifrw.document.close();if(ifrw.document.body&&!ifrw.document.body.isContentEditable){ifrw.document.body.contentEditable=true;ifrw.document.body.contentEditable=false;}}</script><p></p>
+function runCode(){var text=document.getElementById("myTextareaCode").value;var ifr=document.createElement("iframe");ifr.setAttribute("frameborder","0");ifr.setAttribute("id","iframeResult");document.getElementById("myIframewrapper").innerHTML="";document.getElementById("myIframewrapper").appendChild(ifr);var ifrw=(ifr.contentWindow)?ifr.contentWindow:(ifr.contentDocument.document)?ifr.contentDocument.document:ifr.contentDocument;ifrw.document.open();ifrw.document.write(text);ifrw.document.close();if(ifrw.document.body&&!ifrw.document.body.isContentEditable){ifrw.document.body.contentEditable=true;ifrw.document.body.contentEditable=false;}}</script><p></p>
 </div>
 
 
@@ -82,8 +82,7 @@ var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().ge
          $scope.snippet=preffix+process($scope.result[0].snippet) + "</html>";
          $scope.text=$scope.result[0].text;
          $scope.link=$scope.result[0].link;
-
-
+          runCode_1();
         });
 
 
