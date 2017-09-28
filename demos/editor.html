@@ -67,14 +67,10 @@ var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().ge
            $scope.qid=  getParameterByName('i'); // "1010";  
           $scope.items = response.data;        
           $scope.result =filterFilter($scope.items, {id: $scope.qid}); 
-            console.log($scope.result );
-
-            $scope.isValidId = function(items){
+           $scope.isValidId = function(items){
               return (items.id == $scope.qid);
             // return items;
             };
-
-
          var preffix ='<html><head>';
          preffix +='<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" ><\/script>';
          preffix += '<link rel="stylesheet" href="https://angular4pro.com/demos/editor.css" type="text/css" /> </head>';
@@ -82,7 +78,10 @@ var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().ge
          $scope.snippet=preffix+process($scope.result[0].snippet) + "</html>";
          $scope.text=$scope.result[0].text;
          $scope.link=$scope.result[0].link;
-          runCode_1();
+console.log("i");          
+runCode();
+          console.log("p");
+          
         });
 
 
