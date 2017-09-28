@@ -82,7 +82,9 @@ var filePath="https://angular4pro.com/demos/"+fileName+".json?t="+ new Date().ge
          $scope.text=$scope.result[0].text;
          $scope.link=$scope.result[0].link;
 console.log("i");          
-runCode_1();
+ setTimeout(function(){
+     runCode_1();
+    },2000);
           console.log("p");
           
         });
