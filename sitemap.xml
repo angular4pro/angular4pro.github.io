@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://angular4pro.com</loc>
     <priority>1.00</priority>
@@ -157,17 +156,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://angular4pro/privacy-policy.html</loc>
+    <loc>https://angular4pro.com/privacy-policy.html</loc>
     <priority>0.80</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://angular4pro/about-us.html</loc>
+    <loc>https://angular4pro.com/about-us.html</loc>
     <priority>0.80</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://angular4pro/contact.html</loc>
+    <loc>https://angular4pro.com/contact.html</loc>
     <priority>0.80</priority>
     <changefreq>daily</changefreq>
   </url>
