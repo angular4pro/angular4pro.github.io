@@ -131,6 +131,14 @@
 		"category": " AngularJS, AngularJS 1.x",
 		"tags": " Tutorials, AngularJs Expression"
 	}
+      ,{
+      "id": 120,
+      "text": "AngularJS ng-bind Directives ",
+      "link": "https://angular4pro.com//ng-bind-directives-angularjs/",
+      "snippet": "<body> <div ng-app>  Enter Name : <input type=\"text\" ng-model=\"username\" /> <br/><br/> <b> Welcome : <span ng-bind=\"username\"> </span> </b> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    }
   
 ]
 
