@@ -1,0 +1,15 @@
+---
+layout: default
+title: ng-if directives in AngularJS with an example
+heading: AngularJs ng-if directives 
+overview: Understanding ng-if directive, Use of AngularJS ng-if directives with an example.
+desc: Understanding ng-if directive, Use of AngularJS ng-if directives with an example..
+keywords: ng-if ng-hide directives
+permalink: /ng-if-directives-angularjs/
+author: Satinder Singh
+prevLink: https://angular4pro.com/ng-switch-directives-angularjs/
+nextLink: https://angular4pro.com/ng-class-directives-angularjs/
+image: https://angular4pro.com/md/images/defining-directives-in-angularjs.png
+---
+
+## <i class="fa fa-angle-double-right color"></i> What is ng-if directives in Angularjs ?
