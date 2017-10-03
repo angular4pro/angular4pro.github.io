@@ -3,7 +3,7 @@ layout: default
 title: ng-switch directives in AngularJS with an example
 heading: AngularJs ng-switch directives 
 overview: Understanding ng-switch directive, Use of AngularJS ng-switch directives with an example.
-desc: Understanding ng-switch directive, Use of AngularJS ng-switch directives with an example..
+desc: Understanding ng-switch directive, Use of AngularJS ng-switch directives with an example.
 keywords: ng-switch ng-hide directives
 permalink: /ng-switch-directives-angularjs/
 author: Satinder Singh
