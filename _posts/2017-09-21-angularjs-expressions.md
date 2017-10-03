@@ -32,10 +32,10 @@ In AngularJS, expressions are used to bind application data to HTML. AngularJS e
 
 ##  <i class="fa fa-angle-double-right color"></i> Types of AngularJS Expression
 In angular js expression are classified as 4 types.
-1. Number Expressions
-2. String Expressions
-3. Object Expressions
-4. Array Expression
+1. [Number Expressions](https://angular4pro.com/number-expressions-angularjs)
+2. [String Expressions](https://angular4pro.com/string-expressions-angularjs) 
+3. [Object Expressions](https://angular4pro.com/object-expressions-angularjs)
+4. [Array Expression](https://angular4pro.com/array-expressions-angularjs)
 
 ###  AngularJS Number Expressions.
 
