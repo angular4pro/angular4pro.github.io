@@ -143,7 +143,7 @@
       "id": 121,
       "text": "AngularJS ng-show & ng-hide Directives ",
       "link": "https://angular4pro.com/ng-show-ng-hide-angularjs/",
-      "snippet": "<body><div ng-app> Red <input type=\"Checkbox\" ng-model='myRed' > Green <input type=\"Checkbox\" ng-model='myGreen' > Blue <input type=\"Checkbox\" ng-model='myBlue' > <div ng-show=\"myRed\" style=\"background-color: red; color: white;\">  <h3>This is RED</h3> </div>  <br/> <div ng-show=\"myGreen\"  style=\"background-color: green;color: white;\"> <h3>This is RED</h3></div> </br>    <div ng-show=\"myBlue\"  style=\"background-color: blue;color: white;\"> <h3>This is RED</h3> </div> </div> </body>",
+      "snippet": "<body><div ng-app> Red <input type=\"Checkbox\" ng-model='myRed' > Green <input type=\"Checkbox\" ng-model='myGreen' > Blue <input type=\"Checkbox\" ng-model='myBlue' > <div ng-show=\"myRed\" style=\"background-color: red; color: white;\">  <h3>This is RED</h3> </div>  <br/> <div ng-show=\"myGreen\"  style=\"background-color: green;color: white;\"> <h3>This is GREEN</h3></div> </br>    <div ng-show=\"myBlue\"  style=\"background-color: blue;color: white;\"> <h3>This is BLUE</h3> </div> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
@@ -152,7 +152,7 @@
       "id": 122,
       "text": "AngularJS ng-show & ng-hide Directives ",
       "link": "https://angular4pro.com/ng-show-ng-hide-angularjs/",
-      "snippet": "<body><div ng-app> Red <input type=\"Checkbox\" ng-model='myRed' > Green <input type=\"Checkbox\" ng-model='myGreen' > Blue <input type=\"Checkbox\" ng-model='myBlue' > <div ng-hide=\"myRed\" style=\"background-color: red; color: white;\">  <h3>This is RED</h3> </div>  <br/> <div ng-hide=\"myGreen\"  style=\"background-color: green;color: white;\"> <h3>This is RED</h3></div> </br>    <div ng-hide=\"myBlue\"  style=\"background-color: blue;color: white;\"> <h3>This is RED</h3> </div> </div> </body>",
+      "snippet": "<body><div ng-app> Red <input type=\"Checkbox\" ng-model='myRed' > Green <input type=\"Checkbox\" ng-model='myGreen' > Blue <input type=\"Checkbox\" ng-model='myBlue' > <div ng-hide=\"myRed\" style=\"background-color: red; color: white;\">  <h3>This is RED</h3> </div>  <br/> <div ng-hide=\"myGreen\"  style=\"background-color: green;color: white;\"> <h3>This is GREEN</h3></div> </br>    <div ng-hide=\"myBlue\"  style=\"background-color: blue;color: white;\"> <h3>This is BLUE</h3> </div> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
