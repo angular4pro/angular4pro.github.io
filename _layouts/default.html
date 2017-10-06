@@ -82,7 +82,7 @@
  <ul id="btmNav" class="pager"><li class="previous"><a href="{{ page.prevLink }}"> Prev</a></li><li class="next"><a href="{{ page.nextLink }}"> Next</a></li></ul>
   </div>
   
-  {% if page.comments %} 
+  {% if page.comments != 'false' %} 
 <div id="disqus_thread"></div>
 <script>
 /**
