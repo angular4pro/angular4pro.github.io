@@ -16,12 +16,16 @@ which displays IP Address.
 
 ## Code to show client IP Address in Angularjs.
 
+**HTML Markup:** Here added a span tag with `ng-bind` attribute with value as ip, which display the IP address.
+
 ```html {% raw %}
 <body ng-app="myApp">
 <div ng-controller="myip">
-	<span>{{ip}}</span>
-</div>
-
+	<span ng-bing="ip"></span>
+</div>{% endraw %}
+```
+**AngularJS Code:** Here we use $http service to make a http request, which in response gives the IP addres and other information.
+```html {% raw %}
 <script>
 	var app = angular.module('myApp', []);
 	app.controller('myip', function($scope, $http) {
@@ -32,4 +36,5 @@ which displays IP Address.
 });
 </script>{% endraw %}
 ```
+
 ---
