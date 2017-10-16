@@ -30,6 +30,6 @@ which displays IP Address.
 			$scope.ip = response.data.ip;
 		});
 });
-</script>
-{% endraw %}
+</script>{% endraw %}
 ```
+---
