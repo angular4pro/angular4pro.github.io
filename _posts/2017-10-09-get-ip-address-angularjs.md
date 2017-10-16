@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: tutorial
 title: Angularjs get client ip address example
 heading: How to get client ip address in AngularJs
 desc: How to get client address in angularjs, Get system Ip address in angularjs.
