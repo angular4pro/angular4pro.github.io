@@ -14,7 +14,9 @@ image: https://angular4pro.com/md/images/defining-directives-in-angularjs.jpg
 
 ## <i class="fa fa-angle-double-right color"></i> What is ng-init directives?
 
-In angularjs, the ng-init directives define the initial values for an angularjs application. It means ng-init used to initialize application data and which will allow evaluating an expression in given scope. In web application sometime we may require some local data for our application, so this can be done with the ng-init directive. 
+In angularjs, the `ng-init` directives define the ***initial values*** for an angularjs application. It means ng-init used to **initialize application data** and which will allow evaluating an expression in given scope. 
+
+In web application sometime we may require some local data for our application, so this can be done with the **ng-init** directive. 
 
 
 ## Usage of ng-init directive:
@@ -58,7 +60,9 @@ The code looks like as written below
 ---
 
 #### Example 2: Use ng-init with multiple & complex values.
-Here in this example, we learn how to use ng-init with complex JSON data. Here we are going to calculate an average score from mark-sheet using number expressions. 
+Here in this example, we learn how to use ng-init with complex JSON data. 
+
+Here we are going to calculate an average score from mark-sheet using number expressions. 
 
 ```html {% raw %}
 <div ng-app="" ng-init="minMarks=35;maxMarks=100; marks={physisc:90,chemistry:65,math:75,biology:80}">
