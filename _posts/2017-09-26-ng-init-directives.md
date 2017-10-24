@@ -55,7 +55,7 @@ The code looks like as written below
 
 **Output:**  Hello World
 
-![Using ng-init directive example 1 output](https://angular4pro.com./md/images/out-put-1.JPG ng-init directive example 1 output)
+![Using ng-init directive example 1 output](https://angular4pro.com./md/images/out-put-1.JPG)
 
 ---
 
@@ -74,7 +74,7 @@ Here we are going to calculate an average score from mark-sheet using number exp
 
 **Output:**  
 
-![Using ng-init directive  with complex JSON data example 2 output](https://angular4pro.com./md/images/out-put-2.JPG ng-init directive with complex JSON data example 2 output)
+![Using ng-init directive  with complex JSON data example 2 output](https://angular4pro.com./md/images/out-put-2.JPG)
 
 
 
