@@ -20,9 +20,11 @@ Angularjs provides `ng-if` and `ng-switch` 2 directives to add or remove HTML el
   2. ng-switch-when
   3. ng-switch-default
 
-**ng-switch** directive is added to our primary HTML element (main div tag) and set the expression that acts as a selection condition.
-**ng-switch-when** directive is attached to each child element, which will display only if the expression is true, else it would be removed from DOM.
-**ng-switch-default** directive by its named indicate that this is display as default if no expression is matched. 
+The **ng-switch** directive is added to our primary HTML element (main div tag) and set the expression that acts as a selection condition.
+
+The **ng-switch-when** directive is attached to each child element, which will display only if the expression is true, else it would be removed from DOM.
+
+The **ng-switch-default** directive by its named indicate that this is display as default if no expression is matched. 
 
 ---
 
