@@ -173,7 +173,7 @@
       "id": 125,
       "text": "AngularJs ng-class directives",
       "link": "https://angular4pro.com/ng-class-directives-angularjs/",
-      "snippet": "<body> <div ng-app> Enter ClassName <input type=\"text\" ng-model=\"className\"><br/> <div ng-class=\"className\">Hello World! </div> </div> </body>",
+      "snippet": "<body><style> .red{ color:red; .green{color:green;} .blue{color:blue;} .orange{color: orange;} } </style> <div ng-app> Enter ClassName <input type=\"text\" ng-model=\"className\"><br/> <div ng-class=\"className\">Hello World! </div> <br/> Try Typing: <br/>red, green, blue or orange </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     },
@@ -185,7 +185,6 @@
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
     }
-
 
 
   
