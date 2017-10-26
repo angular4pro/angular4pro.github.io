@@ -10,6 +10,8 @@ author: Satinder Singh
 prevLink: https://angular4pro.com/ng-show-ng-hide-angularjs/
 nextLink: https://angular4pro.com/ng-if-directives-angularjs/
 image: https://angular4pro.com/md/images/defining-directives-in-angularjs.png
+sitemap:
+  lastmod: 2017-10-26  
 ---
 
 ## <i class="fa fa-angle-double-right color"></i> What is ng-switch directives in Angularjs ?
