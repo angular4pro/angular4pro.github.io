@@ -169,6 +169,21 @@
       "snippet": "<body> <div ng-app> Show HTML: <input type=\"checkbox\" ng-model=\"myVar\"> <div ng-if=\"myVar\"> <h1>Welcome to Angular4pro.com</h1> </div> </div> </body>",
       "category": " AngularJS, AngularJS 1.x",
       "tags": " Tutorials, AngularJs Expression"
+    },{
+      "id": 125,
+      "text": "AngularJs ng-class directives",
+      "link": "https://angular4pro.com/ng-class-directives-angularjs/",
+      "snippet": "<body> <div ng-app> Enter ClassName <input type=\"text\" ng-model=\"className\"><br/> <div ng-class=\"className\">Hello World! </div> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
+    },
+    {
+      "id": 126,
+      "text": "AngularJs ng-class directives",
+      "link": "https://angular4pro.com/ng-class-directives-angularjs/",
+      "snippet": "<body> <div ng-app> Enter class one:<input type=\"text\" ng-model=\"classOne\"> <br/> Enter class two:<input type=\"text\" ng-model=\"classTwo\"> <br/> <div ng-class=\"[classOne, classTwo]\">Hello world!</div> </div> </body>",
+      "category": " AngularJS, AngularJS 1.x",
+      "tags": " Tutorials, AngularJs Expression"
     }
 
 
